@@ -76,20 +76,39 @@ footer{
 .barraTexto{
     text-align: left;
 }
+/*parte nav*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 1.5rem ;
+}
 
-.navBar{
+nav div ul{
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    height: 50px;
-    align-items: center;
+    justify-content: space-evenly; 
+    gap: 1.25rem
 }
-.navBar li a{
-    color: white;
+.menu-ul li a{
     text-decoration: none;
+    color:white;
     font-family: "Krona One", sans-serif;
 }
+nav #toggle, nav label{
+    display:none
+}
+.barraImgDos{
+    display:none
+}
+.barraImgDos img{
+    width: 100px;
+    height: 100px;
+}
+
 
 @media(max-width:768px){
     .barraImg img{
@@ -101,12 +120,40 @@ footer{
         font-weight: 1000;
         height: 170px;
     }
-    .navBar li a{
-        font-size: 10px;
-    }
     .barraTexto{
         text-align: center;
         margin-left: 10px;
+    }
+}
+@media(max-width:425px){
+    nav .menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+    nav .menu ul{
+        flex-direction: column;
+        align-items: center;
+        padding:0.5rem 0;
+    }
+    .menu-ul li a{
+        color:#211C6A
+    }
+
+    nav .barraImgDos,  nav label{
+        display: flex;
+    }
+
+    nav #toggle:checked ~ .menu{
+        height: 100%;
+    }
+
+    .redesGeneral, .barraDeTitulo{
+        display:none
+    }
+    .navMargin{
+        background-color: white;
+        color: #211C6A;
     }
 }
 /*main index: parte lema*/
@@ -212,7 +259,6 @@ footer{
 /*parte de admision index*/
 .admisionUno{
     display: flex;
-
 }
 .admisionUno div{
     width: 125rem;
@@ -330,12 +376,10 @@ footer{
 .footerGeneralCero{
     width: 30%;
     text-align: center;
-
 }
 
 .siguenosFooter{
     font-size: 20px;
-
 }
 .footerPrimera{
     text-align: left;
@@ -425,8 +469,65 @@ footer{
         height: 60px;
         margin-top: 20px;
     }
-
     }
+@media(max-width:578px){
+    .footerGeneralUno{
+        flex-direction:column ;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+    }
+    .footerGeneralCero{
+        width: 100%;
+        padding:0px
+    }
+    /*.footerGeneralCero{
+        width: 30%;
+        text-align: center;
+    }*/
+    .footerGeneral{
+        display: block;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .footerPrimera h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footerPrimera .columnaNosotros li a{
+        font-size: 15px;
+    }
+    .footerPrimera .columnaNosotros li{
+        text-align: center;
+    }
+    .footerSegunda .columnaAcademico li{
+        text-align: center;
+    }
+    .footerSegunda .columnaAcademico li a{
+        font-size: 15px;
+    }
+    .footerSegunda h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footerTercera {
+        font-size: 15px;
+        text-align: center;
+    }
+    .footerTercera h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .copyRi p{
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 40px;
+    }
+
+}
 /*page:Somos toribianos*/
 
 .mainSomosToribianos1 .somosToribianosImg img{
@@ -445,12 +546,12 @@ footer{
 }
 .mainSomosToribianos3{
     text-align: center;
-    height: 700px;
+    height: 600px
 }
 .mainSomosToribianos3 iframe{
     text-align: center;
     width: 70%;
-    height: 700px;
+    height: 100%;
 }
 
 .mainSomosToribianos4{
@@ -459,6 +560,22 @@ footer{
     padding: 0px 150px 80px 150px;
     line-height: 2em;
 }
+@media(max-width:1355px){
+    .mainSomosToribianos3{
+        height: 500px;
+    }
+}
+@media(max-width:1149px){
+    .mainSomosToribianos3{
+        height: 450px;
+    }
+}
+@media(max-width:1149px){
+    .mainSomosToribianos3{
+        height: 350px;
+    }
+}
+
 @media(max-width:768px){
     .mainSomosToribianos1 .somosToribianosImg img{
         width: 100%;
@@ -476,7 +593,36 @@ footer{
         height: 300px;
     }
 }
-    
+@media(max-width:650px){
+    .mainSomosToribianos1 .somosToribianosImg img{
+        width: 100%;
+        height: 300px;
+    }    
+    .mainSomosToribianos2{
+        padding: 20px 30px 00px 30px;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .mainSomosToribianos3{
+        height: 250px;
+    }
+    .mainSomosToribianos3 iframe{
+        text-align: center;
+        width: 60%;
+        height: 300px;
+    }
+    .mainSomosToribianos4{
+        text-align: justify;
+        font-size: 16px;
+        padding: 0px 30px 40px 30px;
+        line-height: 1.5em;
+    }
+}
+@media (max-width:555px){
+    .mainSomosToribianos3{
+        height: 200px;
+    }
+}
 @media(max-width:320px){
     .mainSomosToribianos1 .somosToribianosImg img{
         width: 100%;
@@ -773,7 +919,7 @@ footer{
 
 
 
-@media(max-width:768px){
+@media(max-width:1302px){
     .academiaParteGeneral{
     display: grid;
     width: 100%;
@@ -808,7 +954,7 @@ footer{
 .academiaParteDos p{
     text-align: center;
     text-align: justify;
-    font-size: 16px;
+    font-size: 22px;
     color:white;
     line-height: 1.2em;
 }
@@ -817,17 +963,17 @@ footer{
     grid-row: 19/24;
     order:2;
     height: 100%;
-    font-size: 15px;
+    font-size: 20px;
     padding: 20px 40px 30px 40px;
     line-height: 1.2em
 }
 .academiaParteUno h2{
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 15px;
 }
 .academiaParteUno p{
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.3em;
     text-align: justify;
     padding: 15px;
@@ -838,7 +984,85 @@ footer{
 }
 }
     
-@media(max-width:320px){
+@media(max-width:1202px){
+    .academiaParteDos p{
+        font-size: 20px;
+    }
+    .academiaParteTres{
+        font-size: 18px;
+    }
+    .academiaParteUno h2{
+        text-align: left;
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    .academiaParteUno p{
+        font-size: 17px;
+    }
+    .academiaParteTres h2{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:1107px){
+    .academiaParteUno p{
+        font-size: 16px;
+        line-height: 1.3em;
+        text-align: justify;
+        padding: 15px;
+    }
+}
+@media(max-width:930px){
+    .academiaParteDos p{
+        font-size: 17px;
+    }
+    .academiaParteTres{
+        font-size: 16px;
+    }
+    .academiaParteUno h2{
+        text-align: left;
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    .academiaParteUno p{
+        font-size: 16px;
+    }
+    .academiaParteTres h2{
+        font-size: 25px;
+    }
+}
+@media(max-width:814px){
+    .academiaParteDos p{
+        font-size: 16px;
+    }
+    .academiaParteTres{
+        font-size: 15px;
+    }
+    .academiaParteUno h2{
+        text-align: left;
+        font-size: 19px;
+        padding-left: 15px;
+    }
+    .academiaParteUno p{
+        font-size: 15px;
+    }
+    .academiaParteTres h2{
+        font-size: 20px;
+    }
+}
+@media(max-width:753px){
+    .academiaParteDos p{
+        font-size: 15px;
+    }
+    .academiaParteUno p{
+        font-size: 13px;
+    }
+    .academiaParteTres {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:616px){
 .academiaParteGeneral{
     display: grid;
     width: 100%;
@@ -857,6 +1081,9 @@ footer{
     padding:0px;
     border-radius: 0px;
 }
+.academiaParteUno p{
+    font-size: 20px;
+}
 .imgAcademia{
     grid-column: 1/3;
     grid-row: 5/10;
@@ -871,14 +1098,14 @@ footer{
     grid-column:1/3;
     grid-row: 15/22;
     height: 100%;
-    font-size: 15px;
+    font-size: 21px;
     padding: 14px 20px 20px 20px;
     line-height: 1em
 }
 .academiaParteDos p{
     text-align: center;
     text-align: justify;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.1em;
     color: black;
 }
@@ -886,8 +1113,158 @@ footer{
     text-align: center;
     font-size: 25px;
     padding-bottom:10px ;
+} 
 }
-
+@media(max-width:593px){
+    .academiaParteUno p{
+        font-size: 18px;
+    }
+    .academiaParteTres{
+        grid-column:1/3;
+        grid-row: 15/22;
+        height: 100%;
+        font-size: 18px;
+        padding: 14px 20px 20px 20px;
+        line-height: 1em
+    }
+    .academiaParteDos p{
+        text-align: center;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.1em;
+        color: black;
+    }
+    .academiaParteTres h2{
+        text-align: center;
+        font-size: 25px;
+        padding-bottom:10px ;
+    }
+    
+    }
+@media(max-width:426px){
+        .academiaParteUno p{
+            font-size: 16px;
+        }
+        .academiaParteTres{
+            grid-column:1/3;
+            grid-row: 15/22;
+            height: 100%;
+            font-size: 17px;
+            padding: 14px 20px 20px 20px;
+            line-height: 1em
+        }
+        .academiaParteDos p{
+            text-align: center;
+            text-align: justify;
+            font-size: 15px;
+            line-height: 1.1em;
+            color: black;
+        }
+        .academiaParteTres h2{
+            text-align: center;
+            font-size: 20px;
+            padding-bottom:10px ;
+        }
+        }
+@media(max-width:426px){
+    .academiaParteUno p{
+        font-size: 16px;
+    }
+    .academiaParteTres{
+        grid-column:1/3;
+        grid-row: 15/22;
+        height: 100%;
+        font-size: 16px;
+        padding: 14px 20px 20px 20px;
+        line-height: 1em
+    }
+    .academiaParteDos p{
+        text-align: center;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 1.1em;
+        color: black;
+    }
+    .academiaParteTres h2{
+        text-align: center;
+        font-size: 20px;
+        padding-bottom:10px ;
+    }
+}
+@media(max-width:364px){
+    .academiaParteUno p{
+        font-size: 14px;
+    }
+    .academiaParteTres{
+        grid-column:1/3;
+        grid-row: 15/22;
+        height: 100%;
+        font-size: 14px;
+        padding: 14px 20px 20px 20px;
+        line-height: 1em
+    }
+    .academiaParteDos p{
+        text-align: center;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.1em;
+        color: black;
+    }
+    .academiaParteTres h2{
+        text-align: center;
+        font-size: 17px;
+        padding-bottom:10px ;
+    }
+}
+@media(max-width:320px){
+    .academiaParteGeneral{
+        display: grid;
+        width: 100%;
+        height: 81.25rem;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(21,1fr);
+        background-color:white
+    }
+    .imgAcademia .img1{
+        width: 100%;
+        height: 18.75rem;
+    }
+    .academiaParteUno{
+        grid-column:1/3;
+        grid-row: 1/5;
+        padding:0px;
+        border-radius: 0px;
+    }
+    .imgAcademia{
+        grid-column: 1/3;
+        grid-row: 5/10;
+    }
+    .academiaParteDos{
+        grid-column:1/3;
+        grid-row: 10/15;
+        padding: 10px 20px 30px 20px;
+        background-color: white;
+    }
+    .academiaParteTres{
+        grid-column:1/3;
+        grid-row: 15/22;
+        height: 100%;
+        font-size: 15px;
+        padding: 14px 20px 20px 20px;
+        line-height: 1em
+    }
+    .academiaParteDos p{
+        text-align: center;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.1em;
+        color: black;
+    }
+    .academiaParteTres h2{
+        text-align: center;
+        font-size: 25px;
+        padding-bottom:10px ;
+    } 
 }
 
 /*page:admision-contactos*/
