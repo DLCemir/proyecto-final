@@ -24,6 +24,9 @@ footer{
                         @include tipogragia2(white,20px,300);
                         text-decoration: none;
                         line-height: 1.5em;
+                        &:hover{
+                            color:red;
+                        }
                     }
                 }
                 h3{
@@ -41,6 +44,9 @@ footer{
                         @include tipogragia2(white,20px,300);
                         text-decoration: none;
                         line-height: 1.5em;
+                        &:hover{
+                            color:red;
+                        }
                     }
                 }
                 h3{

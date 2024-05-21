@@ -1,36 +1,44 @@
 @media(max-width:768px){
     header{
-    .barraImg img{
-        width: 115%;
-        height: 90%;
-    }    
-    .barraDeTitulo{
-        font-size: 15px;
-        font-weight: 1000;
-        height: 170px;
+        .barraDeTitulo{
+            font-size: 15px;
+            font-weight: 1000;
+            height: 170px;
+            .barraImg {
+                img{
+                width: 115%;
+                height: 90%;
+                } 
+            }   
+            .barraTexto{
+                text-align: center;
+                margin-left: 10px;
+            }
+        }
     }
-    .barraTexto{
-        text-align: center;
-        margin-left: 10px;
-    }
-}
 }
 @media(max-width:425px){
     header{
-    nav .menu{
-        width: 100%;
-        height: 0;
-        overflow: hidden;
-    }
-    nav .menu ul{
-        flex-direction: column;
-        align-items: center;
-        padding:0.5rem 0;
-    }
-    .menu-ul li a{
-        color:$color-principal;
-    }
-
+    .redesGeneral{
+        div{
+            nav{
+                .menu{
+                    width: 100%;
+                    height: 0;
+                    overflow: hidden;
+                    ul{
+                        flex-direction: column;
+                        align-items: center;
+                        padding:0.5rem 0;
+                        li{
+                            a{
+                                color:$color-principal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     nav .barraImgDos,  nav label{
         display: flex;
     }
@@ -38,7 +46,6 @@
     nav #toggle:checked ~ .menu{
         height: 100%;
     }
-
     .redesGeneral, .barraDeTitulo{
         display:none;
     }
@@ -47,7 +54,7 @@
         color: $color-principal;
     }
 }
-}
+}}
 @media(max-width:768px){
     header{
     .barraImg img{

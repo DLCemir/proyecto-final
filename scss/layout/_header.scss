@@ -1,3 +1,4 @@
+
 header{
     background-color:$color-principal;
     text-transform: capitalize;
@@ -5,39 +6,35 @@ header{
         display: flex;
         width: 100%;
         text-align: right;
-        align-items: center;    
+        align-items: center;
+        .barraRedes1{
+            width: 50%;
+            display: flex;
+            text-align: center;
+            .barraUno{
+                width: 50%;
+                background-color: white;
+                color: white;
+            }
+            .barraDos{
+                width: 50%;
+                color: white;
+                border-right: 18px solid $color-principal;
+                border-bottom: 27px solid white;
+                height: 40px;
+                line-height: 40px;
+                .blanco{
+                    background-color: white;
+                    text-align: center;
+                    color:white
+                }
+            }
+        }
+        .barraRedes2{
+            width: 50%;
+            margin-right: 50px;
+        }
     }
-    .barraRedes1{
-        width: 50%;
-        display: flex;
-        text-align: center;
-    }
-
-    .barraUno{
-        width: 50%;
-        background-color: white;
-        color: white;
-    }
-
-    .barraDos{
-        width: 50%;
-        color: white;
-        border-right: 18px solid $color-principal;
-        border-bottom: 27px solid white;
-        height: 40px;
-        line-height: 40px;
-    }
-
-    .blanco{
-        background-color: white;
-        text-align: center;
-        color:white
-    }
-    .barraRedes2{
-        width: 50%;
-        margin-right: 50px;
-    }
-
     .barraDeTitulo{
         background-color: white;
         color: $color-principal;
@@ -49,9 +46,17 @@ header{
         display: flex;
         align-items: center;
         height: 210px;
-    }
-    .barraTexto{
-        text-align: left;
+        .barraImg{
+            width: 20%;
+            height: 250px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .barraTexto{
+            text-align: left;
+        }
     }
     nav{
         display: flex;
@@ -73,6 +78,9 @@ header{
         text-decoration: none;
         color:white;
         font-family: "Krona One", sans-serif;
+        &:hover{
+            color:yellowgreen;
+        }
     }
     nav #toggle, nav label{
         display:none
@@ -85,3 +93,4 @@ header{
         height: 100px;
     }
 }
+
