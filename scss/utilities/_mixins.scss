@@ -1,0 +1,41 @@
+@mixin tipografia1($color,$text,$font){
+    color:$color;
+    text-transform:$text;
+    font-size: $font;
+}
+
+@mixin button($back,$color,$padding,$fonts,$fontw,$borderc){
+    background-color:$back;
+    color:$color;
+    padding: $padding;
+    font-size: $fonts;
+    font-weight: $fontw;
+    border-color: $borderc;
+    }
+@mixin grid($height, $gridtc, $gridtr){
+    display: grid;
+    width: 100%;
+    height: $height;
+    grid-template-columns: $gridtc;
+    grid-template-rows: $gridtr;
+}
+
+@mixin tipogragia2($Color, $fontS, $fontW){
+    color: $Color;
+    font-size: $fontS;
+    font-weight: $fontW;
+}
+
+@mixin flex($justify, $h, $gap){
+    display: flex;
+    justify-content:$justify;
+    height: $h;
+    gap: $gap;
+}
+@mixin tipogragia3($textA, $fontS, $fontW){
+    text-align: $textA;
+    font-size: $fontS;
+    font-weight: $fontW;
+}
+
+

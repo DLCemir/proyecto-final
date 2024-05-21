@@ -1,0 +1,33 @@
+/*orden de llamado
+*/
+@import "./utilities/variable";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/funciones";
+
+/*carpeta reset*/
+@import "./base/reset";
+/*carpeta layout*/
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/header-index";
+@import "./layout/main-somostoribianos";
+@import "./layout/main-academia";
+@import "./layout/main-index";
+@import "./layout/main-propuesta-educativa";
+@import"./layout/main-formacion-d";
+@import"./layout/main-admision-contacto";
+/*carpeta componentes*/
+@import "./components/niveles-index";
+@import "./components/admision-index";
+@import "./components/academia-index";
+
+
+/**mediaquery siempre al final**/
+@import "./layout/media/media-header.scss";
+@import "./layout/media/media-footer";
+@import "./layout/media/media-somostoribianos";
+@import "./layout/media/media-academia";
+@import "./layout/media/media-propuesta-ed";
+
+

@@ -1,0 +1,87 @@
+footer{
+    @media(max-width:768px){
+        .footerGeneral{
+            @include grid(18.75rem,repeat(2,1fr),repeat(2,1fr));
+            .footerPrimera{
+                width: 100%;
+            }
+            .footerTercera{
+                text-decoration: none;
+                grid-column: 1/3;
+                grid-row: 2/3;
+                @include tipogragia3(left,19px,300);
+            }
+        }
+        .copyRi{
+            @include tipogragia3 (center, 18px,300);
+            text-decoration: none;
+            height: 60px;
+            margin-top: 50px;
+        }
+}
+
+    @media(max-width:578px){
+        .footerGeneralUno{
+            flex-direction:column ;
+            width: 100%;
+            height: 420px;
+            align-items: center;
+            .footer-stm{
+                width: 100%;
+                padding:20px;
+            }
+            .footerGeneral{
+                display: block;
+                width: 100%;
+                text-align: center;
+                .footerPrimera{
+                    .columnaNosotros{
+                        li{
+                            text-align: center;
+                            a{
+                                font-size: 15px;
+                            }                       
+                        }
+                        h3{
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                            text-align: center;
+                        }
+                    }
+                }    
+                .footerSegunda{
+                    .columnaAcademico{
+                        h3{
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                            text-align: center;
+                        }
+                        li{
+                            text-align: center;
+                            a{
+                                font-size: 15px;
+                            }
+                        } 
+                    }
+                }
+                .footerTercera{
+                        h3{
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                        p{
+                            font-size: 16px;
+                            text-align: center;
+                        } 
+                    }
+                }                    
+            }
+            .copyRi{
+                p{
+                    font-size: 17px;
+                    font-weight: 300;
+                    margin-top: 150px;
+                }
+            }
+        }
+    }

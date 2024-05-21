@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ADMISION</title>
-    <link rel="stylesheet" href="../css/styless.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link
     rel="stylesheet"
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -57,7 +57,7 @@
             </nav>
         </div> 
     </header>   
-    <main >
+    <main class="admision">
         <section class="admisionParte1">
             <div>
                 <h2>Admision</h2>            
@@ -68,7 +68,7 @@
             <section class="admisionBloque1">
                 <div class="textoAdmin">
                     <img src="../assets/img/play-button.png" alt="">
-                    <h3 class="textoAdminRojo">Video Resumen <br> Informativo</h3>
+                    <h3>Video Resumen <br> Informativo</h3>
                 </div>
                 <div class="videoAdmin">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/rDn6-uslFns?si=jjATCoz0-MWikVOH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -78,61 +78,59 @@
                 <article class="textoRegla">
                     <h3>Reglamento Interno <br> 2024</h3>
                 </article>
-                <article>
-                    <button class="buttonAdmision">descarga</button>
-                </article>
+                    <button>descarga</button>
             </section>
-            <div class="barraamarilla">
+            <div class="barra-yellow">
                 <h2>Inscribete aqui</h2>
             </div>
             <section class="formularioContactos">
                 <section class="formulario">
                     <h2 id="contactos">Contacto</h2>
-                    <article class="formContainer">
-                        <form class="formGroup" action="">
-                            <label for="name" class="formLabel">Nombre y Apellido del Alumno</label>
-                            <input type="text" id="name" class="formInput">
+                    <article>
+                        <form action="">
+                            <label for="name">Nombre y Apellido del Alumno</label>
+                            <input type="text" id="name">
                         </form>
                     </article>
-                    <article class="formContainer">
-                        <form class="formGroup" action="">
-                            <label for="grado" class="formLabel">Grado del Alumno</label>
-                            <input type="text" id="grado" class="formInput">
+                    <article>
+                        <form action="">
+                            <label for="grado" >Grado del Alumno</label>
+                            <input type="text" id="grado">
                         </form>
                     </article>
-                    <article class="formContainer">
-                        <form class="formGroup" action="">
-                            <label for="apoderado" class="formLabel">Apoderado del Alumno</label>
-                            <input type="text" id="apoderado" class="formInput">
+                    <article>
+                        <form action="">
+                            <label for="apoderado" >Apoderado del Alumno</label>
+                            <input type="text" id="apoderado">
                         </form>
                     </article>
-                    <article class="formContainer">
-                        <form class="formGroup" action="">
-                            <label for="cellphone" class="formLabel">celular</label>
-                            <input type="text" id="cellphone" class="formInput">
+                    <article>
+                        <form action="">
+                            <label >celular</label>
+                            <input type="text" id="cellphone" >
                         </form>
                     </article>
-                    <article class="formContainer">
-                        <form class="formGroup" action="">
-                            <label for="email" class="formLabel">correo</label>
-                            <input type="email" id="email" class="formInput">
+                    <article>
+                        <form  action="">
+                            <label for="email">correo</label>
+                            <input type="email" id="email">
                         </form>
                     </article>
-                    <article class="formContainer">
-                        <form class="formGroup" action="">                           
-                        <label for="mensaje" class="formLabel">mensaje</label>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="formInput"></textarea>   
+                    <article>
+                        <form action="">                           
+                        <label for="mensaje">mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>   
                         </form>
                     </article>
-                    <button class="buttonEnviar">Enviar</button>
+                    <button class="button-ad">Enviar</button>
                 </section>
-                <section class="mapa">
-                    <div class="mapa1">
+                <section class="map">
+                    <div class="map-uno">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1020.8047420690444!2d-79.72192950383157!3d-6.161471614660551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2spe!4v1712549456996!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <p>CAL. PROLONGACIÓN PROGRESO S/N QUINTA JULIETA - MOTUPE , Motupe, Peru</p>
                         <p>96545 54</p>
                     </div>
-                    <div class="siguenos1">
+                    <div class="siguenos-uno">
                         <p>Siguenos en:</p>
                         <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAAAXNSR0IArs4c6QAAAY9JREFUSEvtljEvBEEUx/9vXSMKpYQ9Z0OEqEiUGlH4BkKBAsXuKURJ6QNcYndPaIhQ8AEUPoJLaBSSu1uX27tGopKIxM6T2SCHOxfZsReJqSaZvP9v3n9m3htCjINiZKF1sP5uMxloPKeB2qNmLMCPCU4c5Svb/pvWh8wM3bIBtqKCauJtz3dX68OS1j6YF5TBiA68srOoEnYF4IKAqhRlYBLARAhQDFvxfHev1gmjx9wCYUMxjA89Pzv/2fLfgTHNeBXnRMIGeq2RQAhb+gaQAXCv0syItPFi2c5JUUM3dwEsf7lYqs5MCDFWqu5cSkCfbh4TMKsaJh9oQYpqwFLBd/NhZklrE8xTIYwxBEJXZBuJOFMsZ9e+e4eGbp4BmI4LdgNgMDIMRKfM5EqhjieRu75zH+Q8lTKHKdBC6wjiHEAiOqzGvzguyDvuH6ak6v8xG3/QqZkxeltxZS9rXK5Ajuc76brNM5VKG9ozZ0Dc2axbNyxXr4EE3Adt2nqpZHt1Yc0AUddb95WLuvNm8S/fUR8rKewJywAAAABJRU5ErkJggg=="/></a>
                         <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAAAXNSR0IArs4c6QAAA+FJREFUSEvNll2IVGUcxp//O7Mm3oUQy86Z2TOjFCHU9mGEplKQfbgEtRUoapZGO2dWIeiiwmxTLOgiqp05Z5UV1ugDCRNa+xTRRAmhsA/qQnHO7JkzuyhFF4FEO/M+cWZnltnZM+vmxeJ7N8z///7e53mf8z9HMI9L5pGF6weWSKRTUR25Q6OyTEFUKxc0qBUiv5VV5ZznOflWdaHKDKM31gb1MYDV12DzqQnoDb4/WGrunQFbmsgsq2ieAbAIlAEAP2nQF1FsBY6wrCpKJYS4C4AF4O+KqqzwvH2/N/ZMg5nmloVSXvQrgE4wstwtDfw8V2Vme6+5OKZLf15asFKgTwC4wOiV2wqF4X/qe0yDpWLpdRQ5CkjO9XN9cwUlDet5AGkAbQqySwvWg3wKGo+5Y/ZIKCwZt14DsVvI7nzJ+aIZlopby0HpJtElwnOiOHLRc340Y+leEXGCegF6CNwIYAiCXW7R3hMOM6z3AOwAI12NFsZimcULRO8DpGeGWuKQjsrbSotB8lLBz501DethAb4CZMD1cztawYYAbGVUJwuFwUK9KGVYRwh5lOCbAh6ZwMILbSzfLKKfIPiKkIfzJWd9vd400msEchLgkOs7gcXVNe3OknHrIIjNOlLuGB3dPx4UmPG+h4T6awBZ17e3h1g7SOIFpdV9F8eyQYqRjKdXgXIKwAHXt7e1UJb+AJBNZVGxYjE7VoUZ1lsCvEyo+wt+9mQzLBm31oL4huDrBd/ZHfy/pKNvpVb6tBDD+ZL9bAtlmWGQz6AipjueG508pXUIxNNCuSVfyp1vhnV2WreqCoLn6SPXtzdWe4zeewB1FiIH3WJuy6wwHVGp0dGsW7NkLyivtlSWyDwIzW8FeCPv2/1VN2Lpe0Xk+zkpawxIsrYZgA9d394UYuOkcoVVec8+PWmjtUIrnJk1IKZhHRDguUZlQXPKsD4j8Hhw4QDfr6cRUnkJwEYCnxR8e0P9IMl4ZjXI70g6hZITjK+QNBpWMAv7AN7u+s4v9aLJ54yHAaxpVibAibJij+c5f01Fv5ZgEb6bLzovtrqznSD3NI+ZyeJ+ZRqXt4vgThDtEBkH+YPr32QD/brxEEnD2lqbIDvdor03FJaKZbopHPm/s3HGPRrWpwCeFMi6vJ/7MhRWm/pBvNsB3t1oZfOGrX4vifU+oEUdF6Cko1eWtpz61ahPpU/+JfiO0jyuVaR8VZjgBkX9CIFgyigoWet6uWONfaFv6toEyALouipkZsFlaGxrfLWE2tjcF/YNQqADYAIQT4DqSJtaIl60MvH5+bH9f4Qd8vr5uroGC2dtmVdl/wFLssUrBg39MwAAAABJRU5ErkJggg=="/></a>
@@ -143,7 +141,7 @@
     </main>
     <footer>
         <div class="footerGeneralUno">
-        <section class="footerGeneralCero">
+        <section class="footer-stm">
             <div>
             <div>
                 <a href="../index.html"><img src="../assets/img/LOGO OFICIAL (1).png" alt=""></a>

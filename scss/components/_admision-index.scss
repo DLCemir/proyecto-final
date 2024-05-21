@@ -1,0 +1,62 @@
+.admisionUno{
+        display: flex;
+        margin-top: 50px;
+        div{
+            width: 125rem;
+            height: 600px;
+            margin: 5px;
+            text-transform: capitalize;
+        }
+        .admisionParrafo{
+            text-align: center;
+            padding-top: 150px;
+            text-transform: capitalize;
+            font-size: 20px;
+            h2{
+                &:first-child{
+                    @include tipografia1(#211C6A,capitalize, 80px);
+                }
+                &:nth-child(2){
+                    @include tipografia1(red,capitalize, 80px);
+                }
+                &:nth-child(3){
+                    @include tipografia1(#211C6A,capitalize, 30px);
+                    color:#211C6A;
+                }
+                &:nth-child(4){
+                    @include tipografia1(yellow,capitalize, 80px);
+                }
+            }
+            a button{
+                @include button(yellow,#211C6A,20px,30px,600,transparent);
+                border-radius: .625rem;
+            }
+        }
+        .admisionImg {
+        background-image: url("../assets/img/432496813_812108510936849_2818619129023215405_n.jpg");
+        height: 600px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding-top: 400px;
+        padding-left: 200px;
+        article{
+            background-color:#211C6A;
+            display: flex;
+            align-items: center;
+            width: 450px;
+            height: 150px;
+            a button{
+                @include button(yellow,#211C6A,20px,30px,600,transparent);
+                text-transform: capitalize;
+                text-align: left;
+                margin-left: 10px;
+            }
+            p{
+            color:white;
+            font-size: 30px;
+            font-weight: 400;
+            text-align: center;
+        }    
+}
+}
+}

@@ -1,0 +1,64 @@
+footer{
+    background-color: $color-principal;
+    color:white;
+    text-transform: capitalize;   
+    .footerGeneralUno{
+        @include flex(space-evenly, 260px, 10px);
+        .footer-stm{
+            width: 30%;
+            text-align: center;
+            .siguenosFooter{
+                font-size: 20px;
+            }
+        }
+    }
+    .footerGeneral{
+        display: flex;
+        .footerPrimera{
+            text-align: left;
+            width: 20%;
+            .columnaNosotros{
+                list-style:none;
+                li{
+                    a{
+                        @include tipogragia2(white,20px,300);
+                        text-decoration: none;
+                        line-height: 1.5em;
+                    }
+                }
+                h3{
+                    @include tipogragia2(red,30px,900);
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .footerSegunda{
+            text-align: left;
+            .columnaAcademico{
+                list-style: none;
+                li{
+                    a{
+                        @include tipogragia2(white,20px,300);
+                        text-decoration: none;
+                        line-height: 1.5em;
+                    }
+                }
+                h3{
+                    @include tipogragia2(red,30px,900);
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .footerTercera{
+            @include tipogragia3(left,20px,300);
+            text-decoration: none;
+            h3{
+                @include tipogragia2(red,30px,900);
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .copyRi{
+        @include tipogragia3(center,20px,300);
+    }
+}

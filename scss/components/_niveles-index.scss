@@ -1,0 +1,59 @@
+.main-index{
+    .nivelesIndex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+        div {
+            article{
+                width: 450px;
+                height: 620px;
+                list-style: none;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    h3{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 30px;
+                        font-weight: 900;
+                    }
+                }
+            }
+        }
+    }
+}
+.main-index{
+    .nivelInicial{
+        background-image: url("../assets/img/indexnivelinicial.jpg");
+        height: 600px;
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding-top: 500px;
+        border-radius: 20px;
+        .textoInicial{
+            background-color: hwb(0 18% 80% / 0.578);
+            width: 50%;
+            height: 80px;
+            margin-left: 50px;
+            padding-top: 20px;  
+        }
+    }
+    .nivelPrimaria{
+        @extend .nivelInicial;
+        background-image: url("../assets/img/indexnivelprimaria.jpg");
+        .textoPrimaria{
+            @extend .textoInicial;
+        }        
+    }
+    .nivelSecu{
+        @extend .nivelPrimaria;
+        background-image: url("../assets/img/indexnivelsecu.jpg");
+        .textoSecu{
+            @extend .textoInicial;
+            padding-top: 00px;
+        }
+    }
+}    
+

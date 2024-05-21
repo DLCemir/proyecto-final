@@ -1,0 +1,162 @@
+.admision{
+    .admisionParte1{
+        background-color: $color-principal;
+        color:white;
+        div{
+            img{
+                width: 70%;
+                height: 500px;
+                margin: 0px 200px 30px 200px;
+            }
+            h2{
+                margin-left: 200px;
+                margin-bottom: 30px;
+                font-size: 40px;
+            }
+    }}
+    .admisionParte2{
+        background-image: url("../assets/img/LOGO\ OFICIAL.png");
+        background-size: cover;
+        .admisionBloque1{
+            display: flex;
+            width: 100%;
+            .textoAdmin{
+                width: 50%;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(6,1fr);
+                img{
+                    grid-column: 2/3;
+                    grid-row: 3/4;
+                    padding-left: 35%;
+                }
+                h3{
+                    grid-column: 2/3;
+                    grid-row: 4/5;
+                    text-align: center;
+                    color: red;
+                    font-size: 30px;
+                    font-weight: 800;
+                }
+            }
+            .videoAdmin{
+                margin-top: 30px;
+                margin-right: 50px;
+            }
+        }
+        .reglamentoAdmin{
+            background-color: hwb(180 0% 0% / 0.594);
+            width: 25%;
+            height: 150px;
+            border-radius: 10px;
+            margin-left: 450px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            .textoRegla{
+                padding-top: 30px;
+                color:$color-principal;
+                font-size: 20px;
+                text-align: center;
+            }
+            button{
+                    background-color:$color-principal;
+                    color: white;
+                    height: 50px;
+                    width: 40%;
+                    border-radius: 5px;
+                    text-transform: capitalize;
+                    margin-left: 7.25rem;
+                }
+            }
+        .barra-yellow{
+            background-color: rgb(234, 234, 114);
+            color:$color-principal;
+            text-align: center;
+            height: 6.25rem;
+            padding-top: 1.875rem;
+            text-transform: capitalize;
+            h2{
+                font-weight: 900px;
+            }
+        }
+        .formularioContactos{
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            .formulario{
+                width: 50%;
+                padding-left: 80px;
+                background-color: hwb(0 100% 0% / 0.468);
+                h2{
+                    font-size: 900;
+                    font-family: $fonts-principal;
+                }
+                article{
+                    margin-top: 3em;
+                    display: grid;
+                    gap: 2.5em;
+                    width: 50%;
+                    form{
+                        position: relative;
+                        color:#5757577e;  
+                    }
+                    label{
+                        font-size: 15px;
+                        font-weight: 900;
+                        color:$color-principal;
+                        text-transform: capitalize;
+                        font-family: $fonts-principal;
+                    }
+                    input{
+                        width: 100%;
+                        font-size: 1rem;
+                        padding: .6em .3em;
+                        background: hwb(0 50% 50% / 0.514);
+                        border:none;
+                        outline:none;
+                    }
+                    textarea{
+                        width: 100%;
+                        font-size: 1rem;
+                        padding: .6em .3em;
+                        background: hwb(0 50% 50% / 0.514);
+                        border:none;
+                        outline:none;
+                    }
+                }
+                .button-ad{
+                    background-color: red;
+                    color: white;
+                    height: 50px;
+                    width: 20%;
+                    border-radius: 5px;
+                    font-size: 20px;
+                }
+            }
+            .map{
+                width: 50%;
+                background-color: hwb(0 100% 0% / 0.468);
+                .map-uno{
+                    iframe{
+                        width: 90%;
+                        margin-bottom: 20px;
+                        height: 31.25rem;
+                    }
+                    p{
+                        color:$color-principal;
+                        font-size: 20px;
+                        font-weight: 900;
+                        width: 90%;
+                    }
+                }
+                .siguenos-uno{
+                    color:$color-principal;
+                    font-size: 20px;
+                    font-weight: 900;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

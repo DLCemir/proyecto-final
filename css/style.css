@@ -1,0 +1,1208 @@
+/*orden de llamado
+*/
+@import url("https://fonts.googleapis.com/css2?family=Jomolhari&family=Krona+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/*carpeta reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*carpeta layout*/
+header {
+  background-color: #211C6A;
+  text-transform: capitalize; }
+  header .redesGeneral {
+    display: flex;
+    width: 100%;
+    text-align: right;
+    align-items: center; }
+  header .barraRedes1 {
+    width: 50%;
+    display: flex;
+    text-align: center; }
+  header .barraUno {
+    width: 50%;
+    background-color: white;
+    color: white; }
+  header .barraDos {
+    width: 50%;
+    color: white;
+    border-right: 18px solid #211C6A;
+    border-bottom: 27px solid white;
+    height: 40px;
+    line-height: 40px; }
+  header .blanco {
+    background-color: white;
+    text-align: center;
+    color: white; }
+  header .barraRedes2 {
+    width: 50%;
+    margin-right: 50px; }
+  header .barraDeTitulo {
+    background-color: white;
+    color: #211C6A;
+    font-size: 25px;
+    font-weight: 100;
+    justify-content: left;
+    font-style: normal;
+    font-family: "Krona One", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 210px; }
+  header .barraTexto {
+    text-align: left; }
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 1.5rem; }
+  header nav div ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 1.25rem; }
+  header .menu-ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Krona One", sans-serif; }
+  header nav #toggle, header nav label {
+    display: none; }
+  header .barraImgDos {
+    display: none; }
+  header .barraImgDos img {
+    width: 100px;
+    height: 100px; }
+
+footer {
+  background-color: #211C6A;
+  color: white;
+  text-transform: capitalize; }
+  footer .footerGeneralUno {
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+    gap: 10px; }
+    footer .footerGeneralUno .footer-stm {
+      width: 30%;
+      text-align: center; }
+      footer .footerGeneralUno .footer-stm .siguenosFooter {
+        font-size: 20px; }
+  footer .footerGeneral {
+    display: flex; }
+    footer .footerGeneral .footerPrimera {
+      text-align: left;
+      width: 20%; }
+      footer .footerGeneral .footerPrimera .columnaNosotros {
+        list-style: none; }
+        footer .footerGeneral .footerPrimera .columnaNosotros li a {
+          color: white;
+          font-size: 20px;
+          font-weight: 300;
+          text-decoration: none;
+          line-height: 1.5em; }
+        footer .footerGeneral .footerPrimera .columnaNosotros h3 {
+          color: red;
+          font-size: 30px;
+          font-weight: 900;
+          margin-bottom: 20px; }
+    footer .footerGeneral .footerSegunda {
+      text-align: left; }
+      footer .footerGeneral .footerSegunda .columnaAcademico {
+        list-style: none; }
+        footer .footerGeneral .footerSegunda .columnaAcademico li a {
+          color: white;
+          font-size: 20px;
+          font-weight: 300;
+          text-decoration: none;
+          line-height: 1.5em; }
+        footer .footerGeneral .footerSegunda .columnaAcademico h3 {
+          color: red;
+          font-size: 30px;
+          font-weight: 900;
+          margin-bottom: 20px; }
+    footer .footerGeneral .footerTercera {
+      text-align: left;
+      font-size: 20px;
+      font-weight: 300;
+      text-decoration: none; }
+      footer .footerGeneral .footerTercera h3 {
+        color: red;
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 20px; }
+  footer .copyRi {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300; }
+
+header .barra-redes {
+  display: flex;
+  width: 100%;
+  text-align: right;
+  align-items: center; }
+
+header .barra-redes-uno {
+  width: 50%;
+  display: flex;
+  text-align: center; }
+
+header .redes-uno {
+  width: 50%;
+  background-color: white;
+  color: white; }
+
+header .redes-dos {
+  width: 50%;
+  color: white;
+  border-right: 18px solid #211C6A;
+  border-bottom: 27px solid white;
+  height: 40px;
+  line-height: 40px; }
+
+header .barra-redes-dos {
+  width: 50%;
+  margin-right: 50px; }
+
+header .barra-texto h1 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Krona One", sans-serif; }
+
+header .barraImg {
+  width: 20%;
+  height: 250px; }
+
+header .barraImg img {
+  width: 100%;
+  height: 100%; }
+
+header .barra-titulo {
+  background-color: white;
+  color: #211C6A;
+  justify-content: left;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  height: 210px; }
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem 1.5rem; }
+
+header nav div ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  justify-content: space-evenly;
+  gap: 1.25rem; }
+
+header .menu-ul1 li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Krona One", sans-serif; }
+
+header .menu-ul1 {
+  height: .125rem; }
+
+header nav #toggle, header nav label {
+  display: none; }
+
+header .barraImgDos {
+  display: none; }
+
+header .barraImgDos img {
+  width: 100px;
+  height: 100px; }
+
+.mainSomosToribianos1 {
+  text-align: justify; }
+  .mainSomosToribianos1 div img {
+    width: 100%;
+    height: 700px; }
+  .mainSomosToribianos1 section {
+    text-align: justify;
+    font-size: 20px;
+    padding: 80px 150px 00px 150px;
+    line-height: 2em; }
+  .mainSomosToribianos1 .mainSomosToribianos {
+    text-align: center;
+    height: 600px; }
+    .mainSomosToribianos1 .mainSomosToribianos iframe {
+      text-align: center;
+      width: 70%;
+      height: 100%; }
+  .mainSomosToribianos1 .mainSomosToribianos2 {
+    text-align: justify;
+    font-size: 20px;
+    padding: 0px 150px 80px 150px;
+    line-height: 2em; }
+
+.main-academia section {
+  display: grid;
+  width: 100%;
+  height: 81.25rem;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(14, 1fr); }
+  .main-academia section .imgAcademia {
+    grid-column: 1/11;
+    grid-row: 1/8;
+    order: 1; }
+    .main-academia section .imgAcademia img {
+      width: 100%;
+      height: 100%; }
+  .main-academia section .academiaParteUno {
+    grid-column: 5/8;
+    grid-row: 4/8;
+    order: 2;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    height: 100%; }
+    .main-academia section .academiaParteUno article h2 {
+      text-align: left;
+      font-size: 45px; }
+    .main-academia section .academiaParteUno article p {
+      font-size: 20px;
+      line-height: 1.5em;
+      text-align: justify; }
+  .main-academia section .academiaParteDos {
+    grid-column: 1/11;
+    grid-row: 8/11;
+    order: 2;
+    padding: 20px 80px 30px 80px;
+    width: 100%;
+    background-color: #211C6A; }
+    .main-academia section .academiaParteDos article p {
+      text-align: center;
+      text-align: justify;
+      font-size: 22px;
+      color: white;
+      line-height: 1.6em; }
+  .main-academia section .academiaParteTres {
+    grid-column: 1/11;
+    grid-row: 11/15;
+    order: 2;
+    background-color: gray;
+    text-align: justify;
+    height: 100%;
+    font-size: 20px;
+    padding: 20px 80px 30px 80px;
+    line-height: 2em; }
+    .main-academia section .academiaParteTres article h2 {
+      text-align: center;
+      font-size: 50px; }
+
+.main-index .lemaPrincipal {
+  display: grid;
+  width: 100%;
+  height: 53.125rem;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 1fr); }
+  .main-index .lemaPrincipal div {
+    grid-column: 1/10;
+    grid-row: 1/10;
+    order: 1; }
+    .main-index .lemaPrincipal div video {
+      width: 100%;
+      height: 53rem; }
+  .main-index .lemaPrincipal article {
+    grid-column: 3/7;
+    grid-row: 5/6;
+    order: 2;
+    color: white;
+    text-align: center;
+    text-transform: capitalize; }
+    .main-index .lemaPrincipal article h2 {
+      font-weight: 1000;
+      font-size: 80px; }
+
+.main-index .tituloDos h2 {
+  text-align: center;
+  color: #211C6A;
+  font-size: 70px;
+  margin-top: 30px;
+  margin-bottom: 50px; }
+
+.main-index .tituloDos h3 {
+  text-align: center;
+  color: #211C6A;
+  font-size: 50px;
+  margin-top: 30px; }
+
+.bloqueGeneral {
+  text-align: justify;
+  color: #211C6A;
+  font-size: 20px;
+  line-height: 2em; }
+  .bloqueGeneral .bloqueRepeat, .bloqueGeneral section:nth-child(3), .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos {
+    display: flex;
+    padding: 20px 0px 50px 0px; }
+    .bloqueGeneral .bloqueRepeat article, .bloqueGeneral section:nth-child(3) article, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos article, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos article {
+      width: 80%;
+      padding-right: 50px;
+      padding-left: 50px; }
+      .bloqueGeneral .bloqueRepeat article h2, .bloqueGeneral section:nth-child(3) article h2, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos article h2, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos article h2 {
+        text-transform: capitalize;
+        font-size: 30px;
+        padding-bottom: 20px; }
+      .bloqueGeneral .bloqueRepeat article h3, .bloqueGeneral section:nth-child(3) article h3, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos article h3, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos article h3 {
+        text-transform: capitalize;
+        font-size: 25px; }
+    .bloqueGeneral .bloqueRepeat div, .bloqueGeneral section:nth-child(3) div, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos div, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos div {
+      width: 120%; }
+      .bloqueGeneral .bloqueRepeat div img, .bloqueGeneral section:nth-child(3) div img, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos div img, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos div img {
+        width: 100%;
+        height: 34.375rem; }
+  .bloqueGeneral section:nth-child(2) {
+    display: flex;
+    padding: 50px 0px 50px 0px; }
+    .bloqueGeneral section:nth-child(2) div {
+      width: 120%; }
+      .bloqueGeneral section:nth-child(2) div img {
+        width: 100%;
+        height: 34.375rem; }
+    .bloqueGeneral section:nth-child(2) article {
+      width: 80%;
+      padding-right: 50px;
+      padding-left: 50px; }
+      .bloqueGeneral section:nth-child(2) article h2 {
+        text-transform: capitalize;
+        font-size: 25px; }
+
+.bloqueGeneralDeportivo {
+  text-align: justify;
+  color: #211C6A;
+  font-size: 20px;
+  line-height: 2em; }
+  .bloqueGeneralDeportivo .bloqueRepeat, .bloqueGeneralDeportivo .bloqueGeneral section:nth-child(3), .bloqueGeneral .bloqueGeneralDeportivo section:nth-child(3), .bloqueGeneralDeportivo .bloqueDos {
+    display: flex;
+    padding: 20px 0px 50px 0px;
+    flex-wrap: wrap;
+    width: 100%; }
+    .bloqueGeneralDeportivo .bloqueRepeat article, .bloqueGeneralDeportivo .bloqueGeneral section:nth-child(3) article, .bloqueGeneral .bloqueGeneralDeportivo section:nth-child(3) article, .bloqueGeneralDeportivo .bloqueDos article {
+      padding-right: 50px;
+      padding-left: 50px;
+      width: 40%; }
+      .bloqueGeneralDeportivo .bloqueRepeat article h2, .bloqueGeneralDeportivo .bloqueGeneral section:nth-child(3) article h2, .bloqueGeneral .bloqueGeneralDeportivo section:nth-child(3) article h2, .bloqueGeneralDeportivo .bloqueDos article h2 {
+        text-transform: capitalize;
+        font-size: 30px;
+        padding-bottom: 20px; }
+      .bloqueGeneralDeportivo .bloqueRepeat article h3, .bloqueGeneralDeportivo .bloqueGeneral section:nth-child(3) article h3, .bloqueGeneral .bloqueGeneralDeportivo section:nth-child(3) article h3, .bloqueGeneralDeportivo .bloqueDos article h3 {
+        text-transform: capitalize;
+        font-size: 25px; }
+    .bloqueGeneralDeportivo .bloqueRepeat div, .bloqueGeneralDeportivo .bloqueGeneral section:nth-child(3) div, .bloqueGeneral .bloqueGeneralDeportivo section:nth-child(3) div, .bloqueGeneralDeportivo .bloqueDos div {
+      width: 60%; }
+      .bloqueGeneralDeportivo .bloqueRepeat div img, .bloqueGeneralDeportivo .bloqueGeneral section:nth-child(3) div img, .bloqueGeneral .bloqueGeneralDeportivo section:nth-child(3) div img, .bloqueGeneralDeportivo .bloqueDos div img {
+        width: 100%;
+        height: 34.375rem; }
+  .bloqueGeneralDeportivo .bloqueUno {
+    display: flex;
+    padding: 50px 0px 50px 0px;
+    flex-wrap: wrap;
+    width: 100%; }
+    .bloqueGeneralDeportivo .bloqueUno div {
+      width: 60%; }
+      .bloqueGeneralDeportivo .bloqueUno div img {
+        width: 100%;
+        height: 34.375rem; }
+    .bloqueGeneralDeportivo .bloqueUno article {
+      width: 40%;
+      padding-right: 50px;
+      padding-left: 50px; }
+      .bloqueGeneralDeportivo .bloqueUno article h2 {
+        text-transform: capitalize;
+        font-size: 25px; }
+  .bloqueGeneralDeportivo .bloqueTres {
+    display: flex;
+    padding: 50px 0px 0px 0px;
+    background-color: rgba(128, 128, 128, 0.284); }
+    .bloqueGeneralDeportivo .bloqueTres article {
+      width: 80%;
+      padding-right: 50px;
+      padding-left: 50px;
+      padding-top: 100px; }
+      .bloqueGeneralDeportivo .bloqueTres article h3 {
+        text-transform: capitalize;
+        font-size: 30px;
+        text-align: center; }
+    .bloqueGeneralDeportivo .bloqueTres div {
+      width: 100%;
+      height: 80%;
+      padding-right: 50px;
+      padding-bottom: 50px; }
+      .bloqueGeneralDeportivo .bloqueTres div img {
+        width: 100%;
+        height: 34.375rem;
+        border-radius: 20px; }
+  .bloqueGeneralDeportivo .bloqueCuatro {
+    display: flex;
+    width: 100%; }
+    .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv {
+      width: 50%; }
+      .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv article h3 {
+        margin: 50px 100px 0px 100px;
+        font-size: 30px; }
+      .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article {
+        display: flex;
+        background-color: rgba(128, 128, 128, 0.284);
+        height: 150px;
+        width: 50%;
+        margin: 10px 100px 50px 100px; }
+        .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article img {
+          height: 100px;
+          margin-top: 25px;
+          margin-left: 20px; }
+        .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article h4 {
+          height: 100px;
+          margin-top: 50px;
+          margin-left: 20px;
+          font-size: 25px; }
+  .bloqueGeneralDeportivo .deportes-grup {
+    width: 50%; }
+    .bloqueGeneralDeportivo .deportes-grup article h3 {
+      margin: 50px 100px 0px 0px;
+      font-size: 30px; }
+    .bloqueGeneralDeportivo .deportes-grup div {
+      display: flex; }
+      .bloqueGeneralDeportivo .deportes-grup div .futbol, .bloqueGeneralDeportivo .deportes-grup div .voley {
+        display: flex;
+        background-color: rgba(128, 128, 128, 0.284);
+        height: 150px;
+        width: 50%;
+        margin: 10px 0px 100px 0px; }
+        .bloqueGeneralDeportivo .deportes-grup div .futbol img, .bloqueGeneralDeportivo .deportes-grup div .voley img {
+          height: 100px;
+          margin-top: 25px;
+          margin-left: 20px; }
+        .bloqueGeneralDeportivo .deportes-grup div .futbol h4, .bloqueGeneralDeportivo .deportes-grup div .voley h4 {
+          height: 100px;
+          margin-top: 50px;
+          margin-left: 20px;
+          font-size: 25px; }
+
+.admision .admisionParte1 {
+  background-color: #211C6A;
+  color: white; }
+  .admision .admisionParte1 div img {
+    width: 70%;
+    height: 500px;
+    margin: 0px 200px 30px 200px; }
+  .admision .admisionParte1 div h2 {
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-size: 40px; }
+
+.admision .admisionParte2 {
+  background-image: url("../assets/img/LOGO OFICIAL.png");
+  background-size: cover; }
+  .admision .admisionParte2 .admisionBloque1 {
+    display: flex;
+    width: 100%; }
+    .admision .admisionParte2 .admisionBloque1 .textoAdmin {
+      width: 50%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(6, 1fr); }
+      .admision .admisionParte2 .admisionBloque1 .textoAdmin img {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        padding-left: 35%; }
+      .admision .admisionParte2 .admisionBloque1 .textoAdmin h3 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        text-align: center;
+        color: red;
+        font-size: 30px;
+        font-weight: 800; }
+    .admision .admisionParte2 .admisionBloque1 .videoAdmin {
+      margin-top: 30px;
+      margin-right: 50px; }
+  .admision .admisionParte2 .reglamentoAdmin {
+    background-color: hwb(180 0% 0%/0.594);
+    width: 25%;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .admision .admisionParte2 .reglamentoAdmin .textoRegla {
+      padding-top: 30px;
+      color: #211C6A;
+      font-size: 20px;
+      text-align: center; }
+    .admision .admisionParte2 .reglamentoAdmin button {
+      background-color: #211C6A;
+      color: white;
+      height: 50px;
+      width: 40%;
+      border-radius: 5px;
+      text-transform: capitalize;
+      margin-left: 7.25rem; }
+  .admision .admisionParte2 .barra-yellow {
+    background-color: #eaea72;
+    color: #211C6A;
+    text-align: center;
+    height: 6.25rem;
+    padding-top: 1.875rem;
+    text-transform: capitalize; }
+    .admision .admisionParte2 .barra-yellow h2 {
+      font-weight: 900px; }
+  .admision .admisionParte2 .formularioContactos {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .admision .admisionParte2 .formularioContactos .formulario {
+      width: 50%;
+      padding-left: 80px;
+      background-color: hwb(0 100% 0%/0.468); }
+      .admision .admisionParte2 .formularioContactos .formulario h2 {
+        font-size: 900;
+        font-family: "Krona One", sans-serif; }
+      .admision .admisionParte2 .formularioContactos .formulario article {
+        margin-top: 3em;
+        display: grid;
+        gap: 2.5em;
+        width: 50%; }
+        .admision .admisionParte2 .formularioContactos .formulario article form {
+          position: relative;
+          color: #5757577e; }
+        .admision .admisionParte2 .formularioContactos .formulario article label {
+          font-size: 15px;
+          font-weight: 900;
+          color: #211C6A;
+          text-transform: capitalize;
+          font-family: "Krona One", sans-serif; }
+        .admision .admisionParte2 .formularioContactos .formulario article input {
+          width: 100%;
+          font-size: 1rem;
+          padding: .6em .3em;
+          background: hwb(0 50% 50%/0.514);
+          border: none;
+          outline: none; }
+        .admision .admisionParte2 .formularioContactos .formulario article textarea {
+          width: 100%;
+          font-size: 1rem;
+          padding: .6em .3em;
+          background: hwb(0 50% 50%/0.514);
+          border: none;
+          outline: none; }
+      .admision .admisionParte2 .formularioContactos .formulario .button-ad {
+        background-color: red;
+        color: white;
+        height: 50px;
+        width: 20%;
+        border-radius: 5px;
+        font-size: 20px; }
+    .admision .admisionParte2 .formularioContactos .map {
+      width: 50%;
+      background-color: hwb(0 100% 0%/0.468); }
+      .admision .admisionParte2 .formularioContactos .map .map-uno iframe {
+        width: 90%;
+        margin-bottom: 20px;
+        height: 31.25rem; }
+      .admision .admisionParte2 .formularioContactos .map .map-uno p {
+        color: #211C6A;
+        font-size: 20px;
+        font-weight: 900;
+        width: 90%; }
+      .admision .admisionParte2 .formularioContactos .map .siguenos-uno {
+        color: #211C6A;
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 20px; }
+
+/*carpeta componentes*/
+.main-index .nivelesIndex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px; }
+  .main-index .nivelesIndex div article {
+    width: 450px;
+    height: 620px;
+    list-style: none;
+    text-align: center; }
+    .main-index .nivelesIndex div article a {
+      text-decoration: none; }
+      .main-index .nivelesIndex div article a h3 {
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 900; }
+
+.main-index .nivelInicial, .main-index .nivelPrimaria, .main-index .nivelSecu {
+  background-image: url("../assets/img/indexnivelinicial.jpg");
+  height: 600px;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 500px;
+  border-radius: 20px; }
+  .main-index .nivelInicial .textoInicial, .main-index .nivelPrimaria .textoInicial, .main-index .nivelSecu .textoInicial, .main-index .nivelPrimaria .textoPrimaria, .main-index .nivelSecu .textoPrimaria, .main-index .nivelSecu .textoSecu {
+    background-color: hwb(0 18% 80%/0.578);
+    width: 50%;
+    height: 80px;
+    margin-left: 50px;
+    padding-top: 20px; }
+
+.main-index .nivelPrimaria, .main-index .nivelSecu {
+  background-image: url("../assets/img/indexnivelprimaria.jpg"); }
+
+.main-index .nivelSecu {
+  background-image: url("../assets/img/indexnivelsecu.jpg"); }
+  .main-index .nivelSecu .textoSecu {
+    padding-top: 00px; }
+
+.admisionUno {
+  display: flex;
+  margin-top: 50px; }
+  .admisionUno div {
+    width: 125rem;
+    height: 600px;
+    margin: 5px;
+    text-transform: capitalize; }
+  .admisionUno .admisionParrafo {
+    text-align: center;
+    padding-top: 150px;
+    text-transform: capitalize;
+    font-size: 20px; }
+    .admisionUno .admisionParrafo h2:first-child {
+      color: #211C6A;
+      text-transform: capitalize;
+      font-size: 80px; }
+    .admisionUno .admisionParrafo h2:nth-child(2) {
+      color: red;
+      text-transform: capitalize;
+      font-size: 80px; }
+    .admisionUno .admisionParrafo h2:nth-child(3) {
+      color: #211C6A;
+      text-transform: capitalize;
+      font-size: 30px;
+      color: #211C6A; }
+    .admisionUno .admisionParrafo h2:nth-child(4) {
+      color: yellow;
+      text-transform: capitalize;
+      font-size: 80px; }
+    .admisionUno .admisionParrafo a button {
+      background-color: yellow;
+      color: #211C6A;
+      padding: 20px;
+      font-size: 30px;
+      font-weight: 600;
+      border-color: transparent;
+      border-radius: .625rem; }
+  .admisionUno .admisionImg {
+    background-image: url("../assets/img/432496813_812108510936849_2818619129023215405_n.jpg");
+    height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    padding-left: 200px; }
+    .admisionUno .admisionImg article {
+      background-color: #211C6A;
+      display: flex;
+      align-items: center;
+      width: 450px;
+      height: 150px; }
+      .admisionUno .admisionImg article a button {
+        background-color: yellow;
+        color: #211C6A;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 600;
+        border-color: transparent;
+        text-transform: capitalize;
+        text-align: left;
+        margin-left: 10px; }
+      .admisionUno .admisionImg article p {
+        color: white;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center; }
+
+.main-index .academiaPreIndex {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  align-items: center; }
+  .main-index .academiaPreIndex .academiaImg {
+    width: 50%; }
+    .main-index .academiaPreIndex .academiaImg img {
+      width: 100%;
+      height: 550px; }
+  .main-index .academiaPreIndex .academiaParrafo {
+    width: 50%;
+    text-align: center; }
+    .main-index .academiaPreIndex .academiaParrafo h2:first-child {
+      color: red;
+      text-transform: capitalize;
+      font-size: 70px; }
+    .main-index .academiaPreIndex .academiaParrafo h2:nth-child(2) {
+      color: #211C6A;
+      text-transform: capitalize;
+      font-size: 70px; }
+    .main-index .academiaPreIndex .academiaParrafo a button {
+      background-color: rgba(4, 4, 109, 0.767);
+      color: white;
+      padding: 20px;
+      font-size: 1.875rem;
+      font-weight: 600;
+      border-color: transparent;
+      border-radius: .625rem; }
+
+/**mediaquery siempre al final**/
+@media (max-width: 768px) {
+  header .barraImg img {
+    width: 115%;
+    height: 90%; }
+  header .barraDeTitulo {
+    font-size: 15px;
+    font-weight: 1000;
+    height: 170px; }
+  header .barraTexto {
+    text-align: center;
+    margin-left: 10px; } }
+
+@media (max-width: 425px) {
+  header nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden; }
+  header nav .menu ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0; }
+  header .menu-ul li a {
+    color: #211C6A; }
+  header nav .barraImgDos, header nav label {
+    display: flex; }
+  header nav #toggle:checked ~ .menu {
+    height: 100%; }
+  header .redesGeneral, header .barraDeTitulo {
+    display: none; }
+  header .navMargin {
+    background-color: white;
+    color: #211C6A; } }
+
+@media (max-width: 768px) {
+  header .barraImg img {
+    width: 115%;
+    height: 90%; }
+  header .barraDeTitulo {
+    font-size: 15px;
+    font-weight: 1000;
+    height: 170px; }
+  header .barraTexto {
+    text-align: center;
+    margin-left: 10px; } }
+
+@media (max-width: 425px) {
+  header nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden; }
+  header nav .menu ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0; }
+  header .menu-ul li a {
+    color: #211C6A; }
+  header nav .barraImgDos, header nav label {
+    display: flex; }
+  header nav #toggle:checked ~ .menu {
+    height: 100%; }
+  header .redesGeneral, header .barraDeTitulo {
+    display: none; }
+  header .navMargin {
+    background-color: white;
+    color: #211C6A; } }
+
+@media (max-width: 768px) {
+  footer .footerGeneral {
+    display: grid;
+    width: 100%;
+    height: 18.75rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+    footer .footerGeneral .footerPrimera {
+      width: 100%; }
+    footer .footerGeneral .footerTercera {
+      text-decoration: none;
+      grid-column: 1/3;
+      grid-row: 2/3;
+      text-align: left;
+      font-size: 19px;
+      font-weight: 300; }
+  footer .copyRi {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    height: 60px;
+    margin-top: 50px; } }
+
+@media (max-width: 578px) {
+  footer .footerGeneralUno {
+    flex-direction: column;
+    width: 100%;
+    height: 420px;
+    align-items: center; }
+    footer .footerGeneralUno .footer-stm {
+      width: 100%;
+      padding: 20px; }
+    footer .footerGeneralUno .footerGeneral {
+      display: block;
+      width: 100%;
+      text-align: center; }
+      footer .footerGeneralUno .footerGeneral .footerPrimera .columnaNosotros li {
+        text-align: center; }
+        footer .footerGeneralUno .footerGeneral .footerPrimera .columnaNosotros li a {
+          font-size: 15px; }
+      footer .footerGeneralUno .footerGeneral .footerPrimera .columnaNosotros h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center; }
+      footer .footerGeneralUno .footerGeneral .footerSegunda .columnaAcademico h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center; }
+      footer .footerGeneralUno .footerGeneral .footerSegunda .columnaAcademico li {
+        text-align: center; }
+        footer .footerGeneralUno .footerGeneral .footerSegunda .columnaAcademico li a {
+          font-size: 15px; }
+      footer .footerGeneralUno .footerGeneral .footerTercera h3 {
+        font-size: 20px;
+        text-align: center; }
+      footer .footerGeneralUno .footerGeneral .footerTercera p {
+        font-size: 16px;
+        text-align: center; }
+  footer .copyRi p {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 150px; } }
+
+@media (max-width: 1355px) {
+  .mainSomosToribianos1 .mainSomosToribianos {
+    height: 500px; } }
+
+@media (max-width: 1149px) {
+  .mainSomosToribianos1 .mainSomosToribianos {
+    height: 450px; } }
+
+@media (max-width: 1149px) {
+  .mainSomosToribianos1 .mainSomosToribianos {
+    height: 350px; } }
+
+@media (max-width: 768px) {
+  .mainSomosToribianos1 div img {
+    width: 100%;
+    height: 300px; }
+  .mainSomosToribianos1 section {
+    padding: 40px 150px 00px 150px; }
+  .mainSomosToribianos1 .mainSomosToribianos {
+    height: 300px; }
+    .mainSomosToribianos1 .mainSomosToribianos iframe {
+      text-align: center;
+      width: 60%;
+      height: 300px; } }
+
+@media (max-width: 650px) {
+  .mainSomosToribianos1 div img {
+    width: 100%;
+    height: 300px; }
+  .mainSomosToribianos1 section {
+    padding: 20px 30px 00px 30px;
+    font-size: 16px;
+    line-height: 1.5em; }
+  .mainSomosToribianos1 .mainSomosToribianos {
+    height: 250px; }
+    .mainSomosToribianos1 .mainSomosToribianos iframe {
+      text-align: center;
+      width: 60%;
+      height: 300px; }
+  .mainSomosToribianos1 .mainSomosToribianos2 {
+    text-align: justify;
+    font-size: 16px;
+    padding: 0px 30px 40px 30px;
+    line-height: 1.5em; } }
+
+@media (max-width: 555px) {
+  .mainSomosToribianos1 .mainSomosToribianos {
+    height: 200px; } }
+
+@media (max-width: 320px) {
+  .mainSomosToribianos1 div img {
+    width: 100%;
+    height: 200px; }
+  .mainSomosToribianos1 section {
+    padding: 20px 30px 00px 30px;
+    font-size: 16px;
+    line-height: 1.5em; }
+  .mainSomosToribianos1 .mainSomosToribianos {
+    height: 150px; }
+    .mainSomosToribianos1 .mainSomosToribianos iframe {
+      text-align: center;
+      width: 60%;
+      height: 300px; }
+  .mainSomosToribianos1 .mainSomosToribianos2 {
+    text-align: justify;
+    font-size: 16px;
+    padding: 0px 30px 40px 30px;
+    line-height: 1.5em; } }
+
+@media (max-width: 1334px) {
+  .main-academia section .academiaParteUno article p {
+    font-size: 18px; } }
+
+@media (max-width: 1264px) {
+  .main-academia section {
+    display: grid;
+    width: 100%;
+    height: 87.5rem;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(25, 1fr);
+    background-color: gray; }
+    .main-academia section .imgAcademia {
+      grid-column: 1/11;
+      grid-row: 1/10;
+      order: 2; }
+      .main-academia section .imgAcademia img {
+        width: 100%;
+        height: 100%; }
+    .main-academia section .academiaParteUno {
+      grid-column: 3/7;
+      grid-row: 15/20;
+      order: 3;
+      padding: 0px;
+      border-radius: 10px; }
+      .main-academia section .academiaParteUno article p {
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align: justify;
+        padding: 15px; }
+      .main-academia section .academiaParteUno article h2 {
+        text-align: left;
+        font-size: 35px;
+        font-weight: 15px; }
+    .main-academia section .academiaParteDos {
+      grid-column: 1/11;
+      grid-row: 10/15;
+      order: 2;
+      padding: 20px 40px 30px 40px; }
+      .main-academia section .academiaParteDos article p {
+        text-align: center;
+        text-align: justify;
+        font-size: 23px;
+        color: white;
+        line-height: 1.2em; }
+    .main-academia section .academiaParteTres {
+      grid-column: 1/11;
+      grid-row: 20/25;
+      order: 2;
+      height: 100%;
+      font-size: 23px;
+      padding: 20px 40px 30px 40px;
+      line-height: 1.2em; }
+      .main-academia section .academiaParteTres article h2 {
+        text-align: center;
+        font-size: 35px; } }
+
+@media (max-width: 1107px) {
+  .main-academia section .academiaParteTres {
+    font-size: 21px; }
+    .main-academia section .academiaParteTres article h2 {
+      text-align: center;
+      font-size: 30px; } }
+
+@media (max-width: 991px) {
+  .main-academia section {
+    height: 106.25rem; }
+    .main-academia section .academiaParteUno article p {
+      font-size: 19px; }
+    .main-academia section .academiaParteUno article h2 {
+      font-size: 30px; }
+    .main-academia section .academiaParteDos article p {
+      font-size: 20px; }
+    .main-academia section .academiaParteTres {
+      font-size: 21px; }
+      .main-academia section .academiaParteTres article h2 {
+        text-align: center;
+        font-size: 30px; } }
+
+@media (max-width: 782px) {
+  .main-academia section {
+    height: 118.75rem; } }
+
+@media (max-width: 694px) {
+  .main-academia section .imgAcademia {
+    grid-column: 1/11;
+    grid-row: 1/9; }
+  .main-academia section .academiaParteUno article p {
+    font-size: 17px; }
+  .main-academia section .academiaParteUno article h2 {
+    font-size: 27px; }
+  .main-academia section .academiaParteDos {
+    grid-column: 1/11;
+    grid-row: 9/15; }
+    .main-academia section .academiaParteDos article p {
+      font-size: 20px; }
+  .main-academia section .academiaParteTres {
+    height: 100%;
+    font-size: 19px; }
+    .main-academia section .academiaParteTres article h2 {
+      font-size: 28px; } }
+
+@media (max-width: 602px) {
+  .main-academia section .academiaParteUno article p {
+    font-size: 17px; }
+  .main-academia section .academiaParteUno article h2 {
+    font-size: 25px; } }
+
+@media (max-width: 576px) {
+  .main-academia section .academiaParteUno {
+    grid-column: 2/8;
+    grid-row: 15/19; }
+    .main-academia section .academiaParteUno article p {
+      font-size: 17px; }
+    .main-academia section .academiaParteUno article h2 {
+      font-size: 25px; }
+  .main-academia section .academiaParteTres {
+    height: 100%;
+    font-size: 19px;
+    grid-row: 19/25; }
+    .main-academia section .academiaParteTres article h2 {
+      font-size: 28px; } }
+
+@media (max-width: 499px) {
+  .main-academia section .imgAcademia {
+    grid-column: 1/11;
+    grid-row: 1/8; }
+  .main-academia section .academiaParteUno {
+    grid-row: 14/18; }
+    .main-academia section .academiaParteUno article p {
+      font-size: 17px; }
+    .main-academia section .academiaParteUno article h2 {
+      font-size: 27px; }
+  .main-academia section .academiaParteDos {
+    grid-row: 8/14; }
+    .main-academia section .academiaParteDos article p {
+      font-size: 19px; }
+  .main-academia section .academiaParteTres {
+    grid-row: 18/25; } }
+
+@media (max-width: 458px) {
+  .main-academia section .imgAcademia {
+    grid-column: 1/11;
+    grid-row: 1/8; }
+  .main-academia section .academiaParteUno {
+    grid-row: 14/18; }
+    .main-academia section .academiaParteUno article p {
+      font-size: 16px; }
+    .main-academia section .academiaParteUno article h2 {
+      font-size: 24px; }
+  .main-academia section .academiaParteDos {
+    grid-row: 8/14; }
+    .main-academia section .academiaParteDos article p {
+      font-size: 18px; }
+  .main-academia section .academiaParteTres article p {
+    font-size: 17px; } }
+
+@media (max-width: 425px) {
+  .main-academia {
+    display: grid;
+    width: 100%;
+    height: 118.75rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    background-color: white; }
+    .main-academia section .imgAcademia {
+      grid-column: 1/15;
+      grid-row: 6/10; }
+      .main-academia section .imgAcademia img {
+        width: 100%;
+        height: 100%; }
+    .main-academia section .academiaParteUno {
+      grid-column: 1/15;
+      grid-row: 1/6;
+      padding: 0px;
+      border-radius: 0px; }
+      .main-academia section .academiaParteUno article p {
+        font-size: 19px; }
+    .main-academia section .academiaParteDos {
+      grid-column: 1/15;
+      grid-row: 10/17;
+      padding: 10px 20px 30px 20px;
+      background-color: white; }
+      .main-academia section .academiaParteDos article p {
+        text-align: center;
+        text-align: justify;
+        font-size: 19px;
+        line-height: 1.1em;
+        color: black; }
+    .main-academia section .academiaParteTres {
+      grid-column: 1/15;
+      grid-row: 17/20;
+      font-size: 21px;
+      padding: 14px 20px 20px 20px;
+      line-height: 1em;
+      background-color: gray; }
+      .main-academia section .academiaParteTres article h2 {
+        font-size: 25px; } }
+
+@media (max-width: 333px) {
+  .main-academia section .academiaParteUno article p {
+    font-size: 17px; }
+  .main-academia section .academiaParteDos article p {
+    font-size: 17px; }
+  .main-academia section .academiaParteTres {
+    font-size: 20px; }
+    .main-academia section .academiaParteTres article h2 {
+      font-size: 20px; } }
+
+@media (max-width: 768px) {
+  .bloqueGeneral .bloqueRepeat, .bloqueGeneral section:nth-child(3), .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos {
+    display: block; }
+    .bloqueGeneral .bloqueRepeat div, .bloqueGeneral section:nth-child(3) div, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos div, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos div {
+      width: 100%; }
+  .bloqueGeneral section:nth-child(2) {
+    flex-direction: column-reverse; }
+    .bloqueGeneral section:nth-child(2) div {
+      width: 100%; } }
+
+@media (max-width: 426px) {
+  .bloqueGeneral .bloqueRepeat div img, .bloqueGeneral section:nth-child(3) div img, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos div img, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos div img {
+    height: 18.75rem; }
+  .bloqueGeneral .bloqueRepeat article, .bloqueGeneral section:nth-child(3) article, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos article, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos article {
+    width: 100%; }
+  .bloqueGeneral section:nth-child(2) div img {
+    height: 18.75rem; }
+  .bloqueGeneral section:nth-child(2) article {
+    width: 100%; } }
+
+@media (max-width: 320px) {
+  .bloqueGeneral {
+    font-size: 20px;
+    line-height: 1.5em; }
+    .bloqueGeneral .bloqueRepeat, .bloqueGeneral section:nth-child(3), .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos {
+      padding: 10px 0px 10px 0px; }
+      .bloqueGeneral .bloqueRepeat div img, .bloqueGeneral section:nth-child(3) div img, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos div img, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos div img {
+        height: 18.75rem; }
+      .bloqueGeneral .bloqueRepeat article, .bloqueGeneral section:nth-child(3) article, .bloqueGeneral .bloqueGeneralDeportivo .bloqueDos article, .bloqueGeneralDeportivo .bloqueGeneral .bloqueDos article {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 100%; }
+    .bloqueGeneral section:nth-child(2) div img {
+      height: 18.75rem; }
+    .bloqueGeneral section:nth-child(2) article {
+      padding-right: 10px;
+      padding-left: 10px;
+      width: 100%; } }

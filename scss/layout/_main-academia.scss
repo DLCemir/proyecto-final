@@ -1,0 +1,66 @@
+.main-academia{
+    section{
+        @include grid(81.25rem,repeat(8,1fr),repeat(14,1fr));
+        .imgAcademia{
+            grid-column: 1/11;
+            grid-row: 1/8;
+            order:1;
+            img{
+            width: 100%;
+            height: 100%;
+        }}
+        .academiaParteUno{
+            grid-column:5/8;
+            grid-row: 4/8;
+            order:2;
+            background-color: white;
+            width: 100%;
+            padding: 20px;
+            height: 100%;
+            article{
+                h2{
+                    text-align: left;
+                    font-size: 45px;
+                }
+                p{
+                    font-size: 20px;
+                    line-height: 1.5em;
+                    text-align: justify;
+                }
+            }
+        }
+        .academiaParteDos{
+            grid-column:1/11;
+            grid-row: 8/11;
+            order:2;
+            padding: 20px 80px 30px 80px;
+            width: 100%;
+            background-color: $color-principal;
+            article{
+                p{
+                    text-align: center;
+                    text-align: justify;
+                    font-size: 22px;
+                    color:white;
+                    line-height: 1.6em;
+                }
+            }
+        }
+        .academiaParteTres{
+            grid-column:1/11;
+            grid-row: 11/15;
+            order:2;
+            background-color: gray;
+            text-align: justify;
+            height: 100%;
+            font-size: 20px;
+            padding: 20px 80px 30px 80px;
+            line-height: 2em;
+            article{
+                h2{
+                    text-align: center;
+                    font-size: 50px;
+                }                
+            }
+        }    
+}}

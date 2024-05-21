@@ -1,0 +1,87 @@
+header{
+    background-color:$color-principal;
+    text-transform: capitalize;
+    .redesGeneral{
+        display: flex;
+        width: 100%;
+        text-align: right;
+        align-items: center;    
+    }
+    .barraRedes1{
+        width: 50%;
+        display: flex;
+        text-align: center;
+    }
+
+    .barraUno{
+        width: 50%;
+        background-color: white;
+        color: white;
+    }
+
+    .barraDos{
+        width: 50%;
+        color: white;
+        border-right: 18px solid $color-principal;
+        border-bottom: 27px solid white;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .blanco{
+        background-color: white;
+        text-align: center;
+        color:white
+    }
+    .barraRedes2{
+        width: 50%;
+        margin-right: 50px;
+    }
+
+    .barraDeTitulo{
+        background-color: white;
+        color: $color-principal;
+        font-size: 25px;
+        font-weight: 100;
+        justify-content: left;
+        font-style: normal;
+        font-family: $fonts-principal;
+        display: flex;
+        align-items: center;
+        height: 210px;
+    }
+    .barraTexto{
+        text-align: left;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem 1.5rem ;
+    }
+    
+    nav div ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        text-align: center;
+        justify-content: space-evenly; 
+        gap: 1.25rem
+    }
+    .menu-ul li a{
+        text-decoration: none;
+        color:white;
+        font-family: "Krona One", sans-serif;
+    }
+    nav #toggle, nav label{
+        display:none
+    }
+    .barraImgDos{
+        display:none
+    }
+    .barraImgDos img{
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,33 @@
+.main-index{
+    .academiaPreIndex{
+        display: flex;
+        width: 100%;
+        height: 600px;
+        align-items: center;
+        .academiaImg{
+            width: 50%;
+            img{
+                width: 100%;
+                height: 550px;
+            }
+        }
+        .academiaParrafo{
+            width: 50%;
+            text-align: center;
+            h2{
+                &:first-child{
+                    @include tipografia1(red,capitalize,70px)
+                }
+                &:nth-child(2){
+                    @include tipografia1(#211C6A,capitalize,70px)
+                }
+            }
+            a button{
+                @include button(rgba(4, 4, 109, 0.767),white,20px,1.875rem,600,transparent);
+                border-radius: .625rem;
+            }
+        }
+    }
+    
+}
+
