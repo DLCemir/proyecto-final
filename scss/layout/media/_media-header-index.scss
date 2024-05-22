@@ -1,0 +1,38 @@
+@media(max-width:425px){
+    header{
+        .nav-index{
+            .navMargin{
+                .menu{
+                width: 100%;
+                height: 0;
+                overflow: hidden;
+            }
+            .navMargin {
+                .menu {
+                    ul{
+                        flex-direction: column;
+                        align-items: center;
+                        padding:0.5rem 0;
+                        }
+                    }}
+            .menu-ul1 li a{
+                color:$color-principal;
+            }
+        
+            .barraImgDos,  label{
+                display: flex;
+            }
+        
+            nav #toggle:checked ~ .menu{
+                height: 100%;
+            }
+            .navMargin{
+                background-color: white;
+                color:$color-principal;
+            }
+        }
+        }
+        .barra-redes, .barra-titulo{
+            display:none;
+        }
+}}

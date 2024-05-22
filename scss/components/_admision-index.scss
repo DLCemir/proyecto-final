@@ -11,7 +11,7 @@
             text-align: center;
             padding-top: 150px;
             text-transform: capitalize;
-            font-size: 20px;
+            font-size:map-get($fonts, xxs);
             h2{
                 &:first-child{
                     @include tipografia1(#211C6A,capitalize, 80px);

@@ -15,7 +15,7 @@
                     h3{
                         color: white;
                         text-decoration: none;
-                        font-size: 30px;
+                        font-size:map-get($fonts, s);
                         font-weight: 900;
                     }
                 }
@@ -33,7 +33,7 @@
         padding-top: 500px;
         border-radius: 20px;
         .textoInicial{
-            background-color: hwb(0 18% 80% / 0.578);
+            background-color: $color-backg;
             width: 50%;
             height: 80px;
             margin-left: 50px;
