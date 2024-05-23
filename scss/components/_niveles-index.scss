@@ -37,7 +37,10 @@
             width: 50%;
             height: 80px;
             margin-left: 50px;
-            padding-top: 20px;  
+            padding-top: 20px;
+            &:hover{
+                color: yellow;
+            }  
         }
     }
     .nivelPrimaria{

@@ -30,6 +30,9 @@
             a button{
                 @include button(yellow,#211C6A,20px,30px,600,transparent);
                 border-radius: .625rem;
+                &:hover{
+                    color: $color-backg;
+                }
             }
         }
         .admisionImg {
@@ -45,12 +48,16 @@
             align-items: center;
             width: 450px;
             height: 150px;
-            a button{
+            a{
+                button{
                 @include button(yellow,#211C6A,20px,30px,600,transparent);
                 text-transform: capitalize;
                 text-align: left;
                 margin-left: 10px;
-            }
+                &:hover{
+                    color: $color-backg;
+                }
+            }}
             p{
             color:white;
             font-size: 30px;

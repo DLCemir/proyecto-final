@@ -546,6 +546,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
       border-radius: 5px;
       text-transform: capitalize;
       margin-left: 7.25rem; }
+      .admision .admisionParte2 .reglamentoAdmin button:hover {
+        color: yellow; }
   .admision .admisionParte2 .barra-yellow {
     background-color: #eaea72;
     color: #211C6A;
@@ -602,6 +604,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
         width: 20%;
         border-radius: 5px;
         font-size: 20px; }
+        .admision .admisionParte2 .formularioContactos .formulario .button-ad:hover {
+          color: #211C6A; }
     .admision .admisionParte2 .formularioContactos .map {
       width: 50%;
       background-color: hwb(0 100% 0%/0.468); }
@@ -653,6 +657,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
     height: 80px;
     margin-left: 50px;
     padding-top: 20px; }
+    .main-index .nivelInicial .textoInicial:hover, .main-index .nivelPrimaria .textoInicial:hover, .main-index .nivelSecu .textoInicial:hover, .main-index .nivelPrimaria .textoPrimaria:hover, .main-index .nivelSecu .textoPrimaria:hover, .main-index .nivelSecu .textoSecu:hover {
+      color: yellow; }
 
 .main-index .nivelPrimaria, .main-index .nivelSecu {
   background-image: url("../assets/img/indexnivelprimaria.jpg"); }
@@ -700,6 +706,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
       font-weight: 600;
       border-color: transparent;
       border-radius: .625rem; }
+      .admisionUno .admisionParrafo a button:hover {
+        color: hwb(0 18% 80%/0.578); }
   .admisionUno .admisionImg {
     background-image: url("../assets/img/432496813_812108510936849_2818619129023215405_n.jpg");
     height: 600px;
@@ -723,6 +731,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
         text-transform: capitalize;
         text-align: left;
         margin-left: 10px; }
+        .admisionUno .admisionImg article a button:hover {
+          color: hwb(0 18% 80%/0.578); }
       .admisionUno .admisionImg article p {
         color: white;
         font-size: 30px;
@@ -758,6 +768,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
       font-weight: 600;
       border-color: transparent;
       border-radius: .625rem; }
+      .main-index .academiaPreIndex .academiaParrafo a button:hover {
+        color: hwb(0 18% 80%/0.578); }
 
 /**mediaquery siempre al final**/
 @media (max-width: 768px) {

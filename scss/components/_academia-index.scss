@@ -25,6 +25,9 @@
             a button{
                 @include button(rgba(4, 4, 109, 0.767),white,20px,1.875rem,600,transparent);
                 border-radius: .625rem;
+                &:hover{
+                    color: $color-backg;
+                }
             }
         }
     }
