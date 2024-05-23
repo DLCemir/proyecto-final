@@ -15,9 +15,11 @@
                         padding:0.5rem 0;
                         }
                     }}
-            .menu-ul1 li a{
-                color:$color-principal;
-            }
+            .menu-ul1 {
+                li {
+                    a{
+                        color:$color-principal;
+            }}}
         
             .barraImgDos,  label{
                 display: flex;
