@@ -28,70 +28,170 @@
             text-align: center;
             color:$color-principal;
             font-size: 30px;
-            /*margin-top: 5px;
-            margin-bottom: 50px;*/
         }
             h3{
             text-align: center;
             color: $color-principal;
             font-size: map-get($fonts, xs);
-            /*margin-top: 10px;*/
         }   
-        }s
+        }
         .nivelesIndex {
             display: block;
-            margin-left: 40px;
+            height: 1150px;
+            margin-left: 16px;
             div {
-                height: 200px;
-                width: 80%;
+                width: 100%;
                 article{
-                    width: 100%;
-                    height: 100px;
+                    width: 95%;
+                    height: 350px;
                     list-style: none;
                     text-align: center;
-                    margin-top: 380px;
+                    align-items: center;
+                    margin-top: 55px;
                     a{
                         text-decoration: none;
                         h3{
                             color: white;
                             text-decoration: none;
                             font-size: map-get($fonts,xxs);
-                            font-weight: 900;
+                            font-weight: 500;
                         }
                     }
                 }
             }
         }
-    }}
+        .admisionUno{
+            display: block;
+            height: 710px;
+            padding: 20px;
+            div{
+                width: 100%;
+                height:350px;
+                text-transform: capitalize;
+                margin: 00px;
+            }
+            .admisionParrafo{
+                text-align: center;
+                padding-top: 00px;
+                text-transform: capitalize;
+                h2{
+                    &:first-child{
+                        @include tipografia1(#211C6A,capitalize, 40px);
+                    }
+                    &:nth-child(2){
+                        @include tipografia1(red,capitalize, 40px);
+                    }
+                    &:nth-child(3){
+                        @include tipografia1(#211C6A,capitalize, 20px);
+                        color:#211C6A;
+                    }
+                    &:nth-child(4){
+                        @include tipografia1(yellow,capitalize, 40px);
+                    }
+                }
+                a button{
+                    @include button(yellow,#211C6A,20px,30px,600,transparent);
+                    border-radius: .625rem;
+                    &:hover{
+                        color: $color-backg;
+                    }
+                }
+            }
+            .admisionImg {
+            background-image: url("../assets/img/432496813_812108510936849_2818619129023215405_n.jpg");
+            width: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding-top: 240px;
+            padding-left: 0px;
+            article{
+                background-color:#211C6A;
+                display: flex;
+                width: 100%;
+                height: 80px;
+                a{
+                    button{
+                    @include button(yellow,#211C6A,15px,15px,600,transparent);
+                    text-transform: capitalize;
+                    text-align: left;
+                    margin-left: 10px;
+                    &:hover{
+                        color: $color-backg;
+                    }
+                }}
+                p{
+                color:white;
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center;
+            }    
+    }
+    }
+    }
+    .academiaPreIndex{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 800px;
+        align-items: center;
+        padding:20px;
+        div{
+            width: 100%;
+            height:350px;
+            text-transform: capitalize;
+            margin: 00px;
+        }
+        .academiaImg{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 350px;
+            }
+        }
+        .academiaParrafo{
+            width: 100%;
+            text-align: center;
+            h2{
+                &:first-child{
+                    @include tipografia1(red,capitalize,30px)
+                }
+                &:nth-child(2){
+                    @include tipografia1(#211C6A,capitalize,30px)
+                }
+            }
+            a button{
+                @include button(rgba(4, 4, 109, 0.767),white,20px,1.875rem,600,transparent);
+                border-radius: .625rem;
+                &:hover{
+                    color: $color-backg;
+                }
+            }
+        }
+    }
+    }
+}
     .main-index{
         .nivelInicial{
             background-image: url("../assets/img/indexnivelinicial.jpg");
-            height: 100%;
             background-position: center;
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            /*padding: 300px;*/
+            padding: 50px;
+            padding-top: 260px;
             border-radius: 20px;
             .textoInicial{
                 background-color: hwb(0 18% 80% / 0.578);
-                width: 50%;
-                height: 80px;
+                width: 53%;
+                height: 70px;
                 margin-left: 50px;
-                /*padding-top: 20px;*/
+                padding-top: 10px;
             }
         }
         .nivelPrimaria{
-            @extend .nivelInicial;
             background-image: url("../assets/img/indexnivelprimaria.jpg");
-            .textoPrimaria{
-                @extend .textoInicial;
-            }        
         }
         .nivelSecu{
-            @extend .nivelPrimaria;
             background-image: url("../assets/img/indexnivelsecu.jpg");
             .textoSecu{
-                @extend .textoInicial;
                 padding-top: 00px;
             }
         }
