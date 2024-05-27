@@ -1,0 +1,86 @@
+.footer-index{
+    background-color: $color-principal;
+    color:white;
+    text-transform: capitalize;   
+    .footer-General-Uno{
+        @include flex(space-evenly, 260px, 10px);
+        .footer-stm-1{
+            width: 30%;
+            text-align: center;
+            .siguenos-Footer{
+                p{
+                font-size: 20px;
+                font-weight: 400;
+                font-family: 'Times New Roman', Times, serif;
+                }
+            }
+        }
+    }
+    .footer-General{
+        display: flex;
+        .footer-Primera{
+            text-align: left;
+            width: 20%;
+            .columna-Nosotros{
+                list-style:none;
+                li{
+                    a{
+                        @include tipogragia2(white,20px,300);
+                        text-decoration: none;
+                        line-height: 1.5em;
+                        font-family: 'Times New Roman', Times, serif;
+                        &:hover{
+                            color:red;
+                        }
+                    }
+                }
+                h3{
+                    @include tipogragia2(red,30px,900);
+                    margin-bottom: 20px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+        }
+        .footer-Segunda{
+            text-align: left;
+            .columna-Academico{
+                list-style: none;
+                li{
+                    a{
+                        @include tipogragia2(white,20px,300);
+                        text-decoration: none;
+                        line-height: 1.5em;
+                        font-family: 'Times New Roman', Times, serif;
+                        &:hover{
+                            color:red;
+                        }
+                    }
+                }
+                h3{
+                    @include tipogragia2(red,30px,900);
+                    margin-bottom: 20px;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            }
+        }
+        .footer-Tercera{
+            @include tipogragia3(left,20px,300);
+            text-decoration: none;
+            margin-right: 80px;
+            h3{
+                @include tipogragia2(red,30px,900);
+                margin-bottom: 10px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p{
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+    }
+    .copy-Ri{
+        @include tipogragia3(center,20px,300);
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+}

@@ -1,3 +1,483 @@
+@media(max-width:1025px){
+    .main-index{
+        .lemaPrincipal{
+            display:block;
+            width: 100%;
+            height: 100%;
+        div{
+            video{
+                width: 100%;
+                height: 100%;
+            } 
+        }
+        article{     
+            color: white;        
+            text-align: center;
+            text-transform: capitalize;
+            position: relative;
+            bottom: 200px;
+            background-color: $color-backg;
+            h2{
+                font-weight: 900;
+                font-size: 50px;
+            }
+        }
+        }
+        .tituloDos{
+            h2{
+            text-align: center;
+            color:$color-principal;
+            font-size: 50px;
+        }
+            h3{
+            text-align: center;
+            color: $color-principal;
+            font-size: map-get($fonts, mm);
+        }   
+        }
+        .nivelSecu{
+            margin-left: 300px;
+        }
+        .admisionUno{
+            width: 100%;
+            div{
+                height: 600px;
+                margin: 5px;
+                width: 50%;
+            }
+            .admisionParrafo{
+                h2{
+                    &:first-child{
+                        @include tipografia1(#211C6A,capitalize, 70px);
+                    }
+                    &:nth-child(2){
+                        @include tipografia1(red,capitalize, 70px);
+                    }
+                    &:nth-child(3){
+                        @include tipografia1(#211C6A,capitalize, 30px);
+                        color:#211C6A;
+                    }
+                    &:nth-child(4){
+                        @include tipografia1(yellow,capitalize, 70px);
+                    }
+                }
+            }
+            .admisionImg {
+            padding-left: 20px;
+    }
+    }
+    .academiaPreIndex{
+        .academiaParrafo{
+            h2{
+                &:first-child{
+                    @include tipografia1(red,capitalize,60px)
+                }
+                &:nth-child(2){
+                    @include tipografia1(#211C6A,capitalize,60px)
+                }
+            }
+        }
+    }
+}}
+@media(max-width:769px){
+    .main-index{
+        .lemaPrincipal{
+            display: block;
+            width: 100%;
+            height: 100%;
+        div{
+            video{
+                width: 100%;
+                height: 100%;
+            } 
+        }
+        article{     
+            color: white;        
+            text-align: center;
+            text-transform: capitalize;
+            position: relative;
+            bottom: 200px;
+            background-color: $color-backg;
+            h2{
+                font-weight: 900;
+                font-size: 50px;
+            }
+        }
+        }
+        .tituloDos{
+            h2{
+            text-align: center;
+            color:$color-principal;
+            font-size: 50px;
+        }
+            h3{
+            text-align: center;
+            color: $color-principal;
+            font-size: map-get($fonts, mm);
+        }   
+        }
+        .nivelesIndex {
+            display: block;
+            height: 1250px;
+            margin: 100px;
+            div {
+                width: 100%;
+                article{
+                    width: 100%;
+                    height: 400px;
+                    list-style: none;
+                    text-align: center;
+                    align-items: center;
+                    margin-top: 50px;
+                    a{
+                        text-decoration: none;
+                        h3{
+                            color: white;
+                            text-decoration: none;
+                            font-size: map-get($fonts,xxs);
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+        .admisionUno{
+            display: block;
+            height: 1000px;
+            padding: 00px 80px 00px 80px;
+            div{
+                width: 100%;
+                height:500px;
+                text-transform: capitalize;
+                margin: 00px;
+            }
+            .admisionParrafo{
+                text-align: center;
+                padding-top: 00px;
+                text-transform: capitalize;
+                h2{
+                    &:first-child{
+                        @include tipografia1(#211C6A,capitalize, 60px);
+                    }
+                    &:nth-child(2){
+                        @include tipografia1(red,capitalize, 60px);
+                    }
+                    &:nth-child(3){
+                        @include tipografia1(#211C6A,capitalize, 40px);
+                        color:#211C6A;
+                    }
+                    &:nth-child(4){
+                        @include tipografia1(yellow,capitalize, 60px);
+                    }
+                }
+                a button{
+                    @include button(yellow,#211C6A,20px,30px,600,transparent);
+                    border-radius: .625rem;
+                    &:hover{
+                        color: $color-backg;
+                    }
+                }
+            }
+            .admisionImg {
+            background-image: url("../assets/img/432496813_812108510936849_2818619129023215405_n.jpg");
+            width: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding-top: 380px;
+            padding-left: 0px;
+            article{
+                background-color:#211C6A;
+                display: flex;
+                width: 90%;
+                height: 80px;
+                margin-left: 40px;
+                a{
+                    button{
+                    @include button(yellow,#211C6A,15px,15px,600,transparent);
+                    text-transform: capitalize;
+                    text-align: left;
+                    margin-left: 100px;
+                    &:hover{
+                        color: $color-backg;
+                    }
+                }}
+                p{
+                color:white;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+                padding-left: 5px;
+            }    
+    }
+    }
+    }
+    .academiaPreIndex{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 1000px;
+        align-items: center;
+        padding:80px;
+        div{
+            width: 100%;
+            height:500px;
+            text-transform: capitalize;
+            margin: 00px;
+        }
+        .academiaImg{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 500px;
+            }
+        }
+        .academiaParrafo{
+            width: 100%;
+            text-align: center;
+            padding-bottom: 20px;
+            h2{
+                &:first-child{
+                    @include tipografia1(red,capitalize,40px)
+                }
+                &:nth-child(2){
+                    @include tipografia1(#211C6A,capitalize,40px)
+                }
+            }
+            a button{
+                @include button(rgba(4, 4, 109, 0.767),white,20px,1.875rem,600,transparent);
+                border-radius: .625rem;
+                &:hover{
+                    color: $color-backg;
+                }
+            }
+        }
+    }
+    }
+    .main-index{
+        .nivelInicial{
+            padding: 10px;
+            padding-top: 300px;
+            border-radius: 20px;
+            .textoInicial{
+                background-color: hwb(0 18% 80% / 0.578);
+                width: 53%;
+                height: 70px;
+                margin-left: 150px;
+                padding-top: 10px;
+            }
+        }
+        .nivelPrimaria{
+            background-image: url("../assets/img/indexnivelprimaria.jpg");
+        }
+        .nivelSecu{
+            background-image: url("../assets/img/indexnivelsecu.jpg");
+            margin-left: 00px;
+        }
+    }
+}
+
+
+@media(max-width:426px){
+    .main-index{
+        .lemaPrincipal{
+            display: block;
+            width: 100%;
+            height: 100%;
+        div{
+            video{
+                width: 100%;
+                height: 100%;
+            } 
+        }
+        article{     
+            color: white;        
+            text-align: center;
+            text-transform: capitalize;
+            position: relative;
+            bottom: 80px;
+            background-color: $color-backg;
+            h2{
+                font-weight: 600;
+                font-size: 20px;
+            }
+        }
+        }
+        .tituloDos{
+            h2{
+            text-align: center;
+            color:$color-principal;
+            font-size: 30px;
+        }
+            h3{
+            text-align: center;
+            color: $color-principal;
+            font-size: map-get($fonts, xs);
+        }   
+        }
+        .nivelesIndex {
+            display: block;
+            height: 1150px;
+            width: 100%;
+            margin:00px;
+            div {
+                width: 100%;
+                margin: 10px;
+                article{
+                    width: 95%;
+                    height: 350px;
+                    list-style: none;
+                    text-align: center;
+                    align-items: center;
+                    margin-top: 55px;
+                    a{
+                        text-decoration: none;
+                        h3{
+                            color: white;
+                            text-decoration: none;
+                            font-size: map-get($fonts,xxs);
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+        .admisionUno{
+            display: block;
+            height: 710px;
+            padding: 20px;
+            div{
+                width: 100%;
+                height:350px;
+                text-transform: capitalize;
+                margin: 00px;
+            }
+            .admisionParrafo{
+                text-align: center;
+                padding-top: 00px;
+                text-transform: capitalize;
+                h2{
+                    &:first-child{
+                        @include tipografia1(#211C6A,capitalize, 40px);
+                    }
+                    &:nth-child(2){
+                        @include tipografia1(red,capitalize, 40px);
+                    }
+                    &:nth-child(3){
+                        @include tipografia1(#211C6A,capitalize, 20px);
+                        color:#211C6A;
+                    }
+                    &:nth-child(4){
+                        @include tipografia1(yellow,capitalize, 40px);
+                    }
+                }
+                a button{
+                    @include button(yellow,#211C6A,20px,30px,600,transparent);
+                    border-radius: .625rem;
+                    &:hover{
+                        color: $color-backg;
+                    }
+                }
+            }
+            .admisionImg {
+            background-image: url("../assets/img/432496813_812108510936849_2818619129023215405_n.jpg");
+            width: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding-top: 240px;
+            padding-left: 0px;
+            article{
+                background-color:#211C6A;
+                display: flex;
+                width: 100%;
+                height: 80px;
+                margin-left: 00px;
+                a{
+                    button{
+                    @include button(yellow,#211C6A,15px,15px,600,transparent);
+                    text-transform: capitalize;
+                    text-align: left;
+                    margin-left: 10px;
+                    &:hover{
+                        color: $color-backg;
+                    }
+                }}
+                p{
+                color:white;
+                font-size: 15px;
+                font-weight: 400;
+                text-align: center;
+            }    
+    }
+    }
+    }
+    .academiaPreIndex{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 800px;
+        align-items: center;
+        padding:20px;
+        div{
+            width: 100%;
+            height:350px;
+            text-transform: capitalize;
+            margin: 00px;
+        }
+        .academiaImg{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 350px;
+            }
+        }
+        .academiaParrafo{
+            width: 100%;
+            text-align: center;
+            h2{
+                &:first-child{
+                    @include tipografia1(red,capitalize,30px)
+                }
+                &:nth-child(2){
+                    @include tipografia1(#211C6A,capitalize,30px)
+                }
+            }
+            a button{
+                @include button(rgba(4, 4, 109, 0.767),white,20px,1.875rem,600,transparent);
+                border-radius: .625rem;
+                &:hover{
+                    color: $color-backg;
+                }
+            }
+        }
+    }
+    }
+
+    .main-index{
+        .nivelInicial{
+            background-image: url("../assets/img/indexnivelinicial.jpg");
+            background-position: center;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 50px;
+            padding-top: 260px;
+            border-radius: 20px;
+            .textoInicial{
+                background-color: hwb(0 18% 80% / 0.578);
+                width: 53%;
+                height: 70px;
+                margin-left: 50px;
+                padding-top: 10px;
+            }
+        }
+        .nivelPrimaria{
+            background-image: url("../assets/img/indexnivelprimaria.jpg");
+        }
+        .nivelSecu{
+            background-image: url("../assets/img/indexnivelsecu.jpg");
+            .textoSecu{
+                padding-top: 00px;
+            }
+        }
+    }
+}
 @media(max-width:391px){
     .main-index{
         .lemaPrincipal{
@@ -38,9 +518,11 @@
         .nivelesIndex {
             display: block;
             height: 1150px;
-            margin-left: 16px;
+            width: 100%;
+            margin:00px;
             div {
                 width: 100%;
+                margin: 8px;
                 article{
                     width: 95%;
                     height: 350px;
@@ -168,7 +650,7 @@
         }
     }
     }
-}
+
     .main-index{
         .nivelInicial{
             background-image: url("../assets/img/indexnivelinicial.jpg");
@@ -196,5 +678,5 @@
             }
         }
     }
-
+}
 

@@ -222,6 +222,84 @@ header .nav-index nav {
 header .nav-index nav #toggle, header .nav-index nav label {
   display: none; }
 
+.footer-index {
+  background-color: #211C6A;
+  color: white;
+  text-transform: capitalize; }
+  .footer-index .footer-General-Uno {
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+    gap: 10px; }
+    .footer-index .footer-General-Uno .footer-stm-1 {
+      width: 30%;
+      text-align: center; }
+      .footer-index .footer-General-Uno .footer-stm-1 .siguenos-Footer p {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Times New Roman', Times, serif; }
+  .footer-index .footer-General {
+    display: flex; }
+    .footer-index .footer-General .footer-Primera {
+      text-align: left;
+      width: 20%; }
+      .footer-index .footer-General .footer-Primera .columna-Nosotros {
+        list-style: none; }
+        .footer-index .footer-General .footer-Primera .columna-Nosotros li a {
+          color: white;
+          font-size: 20px;
+          font-weight: 300;
+          text-decoration: none;
+          line-height: 1.5em;
+          font-family: 'Times New Roman', Times, serif; }
+          .footer-index .footer-General .footer-Primera .columna-Nosotros li a:hover {
+            color: red; }
+        .footer-index .footer-General .footer-Primera .columna-Nosotros h3 {
+          color: red;
+          font-size: 30px;
+          font-weight: 900;
+          margin-bottom: 20px;
+          font-family: 'Times New Roman', Times, serif; }
+    .footer-index .footer-General .footer-Segunda {
+      text-align: left; }
+      .footer-index .footer-General .footer-Segunda .columna-Academico {
+        list-style: none; }
+        .footer-index .footer-General .footer-Segunda .columna-Academico li a {
+          color: white;
+          font-size: 20px;
+          font-weight: 300;
+          text-decoration: none;
+          line-height: 1.5em;
+          font-family: 'Times New Roman', Times, serif; }
+          .footer-index .footer-General .footer-Segunda .columna-Academico li a:hover {
+            color: red; }
+        .footer-index .footer-General .footer-Segunda .columna-Academico h3 {
+          color: red;
+          font-size: 30px;
+          font-weight: 900;
+          margin-bottom: 20px;
+          font-family: 'Times New Roman', Times, serif; }
+    .footer-index .footer-General .footer-Tercera {
+      text-align: left;
+      font-size: 20px;
+      font-weight: 300;
+      text-decoration: none;
+      margin-right: 80px; }
+      .footer-index .footer-General .footer-Tercera h3 {
+        color: red;
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 10px;
+        font-family: 'Times New Roman', Times, serif; }
+      .footer-index .footer-General .footer-Tercera p {
+        font-family: 'Times New Roman', Times, serif; }
+  .footer-index .copy-Ri {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300; }
+    .footer-index .copy-Ri p {
+      font-family: 'Times New Roman', Times, serif; }
+
 .mainSomosToribianos1 {
   text-align: justify; }
   .mainSomosToribianos1 div img {
@@ -817,7 +895,7 @@ header .nav-index nav #toggle, header .nav-index nav label {
     text-align: center;
     margin-left: 10px; } }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   header nav .menu {
     width: 100%;
     height: 0;
@@ -853,14 +931,15 @@ header .nav-index nav #toggle, header .nav-index nav label {
       grid-row: 2/3;
       text-align: left;
       font-size: 19px;
-      font-weight: 300; }
+      font-weight: 300;
+      margin-right: 20px; }
   footer .copyRi {
     text-align: center;
     font-size: 18px;
     font-weight: 300;
     text-decoration: none;
     height: 60px;
-    margin-top: 50px; } }
+    margin-top: 80px; } }
 
 @media (max-width: 578px) {
   footer .footerGeneralUno {
@@ -1221,7 +1300,21 @@ header .nav-index nav #toggle, header .nav-index nav label {
       padding-left: 10px;
       width: 100%; } }
 
-@media (max-width: 425px) {
+@media (max-width: 769px) {
+  header .barra-titulo {
+    font-size: 15px;
+    font-weight: 1000;
+    height: 170px; }
+    header .barra-titulo .barraImg img {
+      width: 115%;
+      height: 90%; }
+    header .barra-titulo .barra-texto {
+      text-align: center;
+      margin-left: 10px; }
+      header .barra-titulo .barra-texto h1 {
+        font-size: 18px; } }
+
+@media (max-width: 426px) {
   header .nav-index .navMargin .menu {
     width: 100%;
     height: 0;
@@ -1241,6 +1334,415 @@ header .nav-index nav #toggle, header .nav-index nav label {
     color: #211C6A; }
   header .barra-redes, header .barra-titulo {
     display: none; } }
+
+@media (max-width: 1025px) {
+  .main-index .lemaPrincipal {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .main-index .lemaPrincipal div video {
+      width: 100%;
+      height: 100%; }
+    .main-index .lemaPrincipal article {
+      color: white;
+      text-align: center;
+      text-transform: capitalize;
+      position: relative;
+      bottom: 200px;
+      background-color: hwb(0 18% 80%/0.578); }
+      .main-index .lemaPrincipal article h2 {
+        font-weight: 900;
+        font-size: 50px; }
+  .main-index .tituloDos h2 {
+    text-align: center;
+    color: #211C6A;
+    font-size: 50px; }
+  .main-index .tituloDos h3 {
+    text-align: center;
+    color: #211C6A;
+    font-size: 50px; }
+  .main-index .nivelSecu {
+    margin-left: 300px; }
+  .main-index .admisionUno {
+    width: 100%; }
+    .main-index .admisionUno div {
+      height: 600px;
+      margin: 5px;
+      width: 50%; }
+    .main-index .admisionUno .admisionParrafo h2:first-child {
+      color: #211C6A;
+      text-transform: capitalize;
+      font-size: 70px; }
+    .main-index .admisionUno .admisionParrafo h2:nth-child(2) {
+      color: red;
+      text-transform: capitalize;
+      font-size: 70px; }
+    .main-index .admisionUno .admisionParrafo h2:nth-child(3) {
+      color: #211C6A;
+      text-transform: capitalize;
+      font-size: 30px;
+      color: #211C6A; }
+    .main-index .admisionUno .admisionParrafo h2:nth-child(4) {
+      color: yellow;
+      text-transform: capitalize;
+      font-size: 70px; }
+    .main-index .admisionUno .admisionImg {
+      padding-left: 20px; }
+  .main-index .academiaPreIndex .academiaParrafo h2:first-child {
+    color: red;
+    text-transform: capitalize;
+    font-size: 60px; }
+  .main-index .academiaPreIndex .academiaParrafo h2:nth-child(2) {
+    color: #211C6A;
+    text-transform: capitalize;
+    font-size: 60px; } }
+
+@media (max-width: 769px) {
+  .main-index .lemaPrincipal {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .main-index .lemaPrincipal div video {
+      width: 100%;
+      height: 100%; }
+    .main-index .lemaPrincipal article {
+      color: white;
+      text-align: center;
+      text-transform: capitalize;
+      position: relative;
+      bottom: 200px;
+      background-color: hwb(0 18% 80%/0.578); }
+      .main-index .lemaPrincipal article h2 {
+        font-weight: 900;
+        font-size: 50px; }
+  .main-index .tituloDos h2 {
+    text-align: center;
+    color: #211C6A;
+    font-size: 50px; }
+  .main-index .tituloDos h3 {
+    text-align: center;
+    color: #211C6A;
+    font-size: 50px; }
+  .main-index .nivelesIndex {
+    display: block;
+    height: 1250px;
+    margin: 100px; }
+    .main-index .nivelesIndex div {
+      width: 100%; }
+      .main-index .nivelesIndex div article {
+        width: 100%;
+        height: 400px;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px; }
+        .main-index .nivelesIndex div article a {
+          text-decoration: none; }
+          .main-index .nivelesIndex div article a h3 {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500; }
+  .main-index .admisionUno {
+    display: block;
+    height: 1000px;
+    padding: 00px 80px 00px 80px; }
+    .main-index .admisionUno div {
+      width: 100%;
+      height: 500px;
+      text-transform: capitalize;
+      margin: 00px; }
+    .main-index .admisionUno .admisionParrafo {
+      text-align: center;
+      padding-top: 00px;
+      text-transform: capitalize; }
+      .main-index .admisionUno .admisionParrafo h2:first-child {
+        color: #211C6A;
+        text-transform: capitalize;
+        font-size: 60px; }
+      .main-index .admisionUno .admisionParrafo h2:nth-child(2) {
+        color: red;
+        text-transform: capitalize;
+        font-size: 60px; }
+      .main-index .admisionUno .admisionParrafo h2:nth-child(3) {
+        color: #211C6A;
+        text-transform: capitalize;
+        font-size: 40px;
+        color: #211C6A; }
+      .main-index .admisionUno .admisionParrafo h2:nth-child(4) {
+        color: yellow;
+        text-transform: capitalize;
+        font-size: 60px; }
+      .main-index .admisionUno .admisionParrafo a button {
+        background-color: yellow;
+        color: #211C6A;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 600;
+        border-color: transparent;
+        border-radius: .625rem; }
+        .main-index .admisionUno .admisionParrafo a button:hover {
+          color: hwb(0 18% 80%/0.578); }
+    .main-index .admisionUno .admisionImg {
+      background-image: url("../assets/img/432496813_812108510936849_2818619129023215405_n.jpg");
+      width: 100%;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding-top: 380px;
+      padding-left: 0px; }
+      .main-index .admisionUno .admisionImg article {
+        background-color: #211C6A;
+        display: flex;
+        width: 90%;
+        height: 80px;
+        margin-left: 40px; }
+        .main-index .admisionUno .admisionImg article a button {
+          background-color: yellow;
+          color: #211C6A;
+          padding: 15px;
+          font-size: 15px;
+          font-weight: 600;
+          border-color: transparent;
+          text-transform: capitalize;
+          text-align: left;
+          margin-left: 100px; }
+          .main-index .admisionUno .admisionImg article a button:hover {
+            color: hwb(0 18% 80%/0.578); }
+        .main-index .admisionUno .admisionImg article p {
+          color: white;
+          font-size: 18px;
+          font-weight: 400;
+          text-align: center;
+          padding-left: 5px; }
+  .main-index .academiaPreIndex {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 1000px;
+    align-items: center;
+    padding: 80px; }
+    .main-index .academiaPreIndex div {
+      width: 100%;
+      height: 500px;
+      text-transform: capitalize;
+      margin: 00px; }
+    .main-index .academiaPreIndex .academiaImg {
+      width: 100%; }
+      .main-index .academiaPreIndex .academiaImg img {
+        width: 100%;
+        height: 500px; }
+    .main-index .academiaPreIndex .academiaParrafo {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 20px; }
+      .main-index .academiaPreIndex .academiaParrafo h2:first-child {
+        color: red;
+        text-transform: capitalize;
+        font-size: 40px; }
+      .main-index .academiaPreIndex .academiaParrafo h2:nth-child(2) {
+        color: #211C6A;
+        text-transform: capitalize;
+        font-size: 40px; }
+      .main-index .academiaPreIndex .academiaParrafo a button {
+        background-color: rgba(4, 4, 109, 0.767);
+        color: white;
+        padding: 20px;
+        font-size: 1.875rem;
+        font-weight: 600;
+        border-color: transparent;
+        border-radius: .625rem; }
+        .main-index .academiaPreIndex .academiaParrafo a button:hover {
+          color: hwb(0 18% 80%/0.578); }
+  .main-index .nivelInicial, .main-index .nivelPrimaria, .main-index .nivelSecu {
+    padding: 10px;
+    padding-top: 300px;
+    border-radius: 20px; }
+    .main-index .nivelInicial .textoInicial, .main-index .nivelPrimaria .textoInicial, .main-index .nivelSecu .textoInicial, .main-index .nivelPrimaria .textoPrimaria, .main-index .nivelSecu .textoPrimaria, .main-index .nivelSecu .textoSecu {
+      background-color: hwb(0 18% 80%/0.578);
+      width: 53%;
+      height: 70px;
+      margin-left: 150px;
+      padding-top: 10px; }
+  .main-index .nivelPrimaria, .main-index .nivelSecu {
+    background-image: url("../assets/img/indexnivelprimaria.jpg"); }
+  .main-index .nivelSecu {
+    background-image: url("../assets/img/indexnivelsecu.jpg");
+    margin-left: 00px; } }
+
+@media (max-width: 426px) {
+  .main-index .lemaPrincipal {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .main-index .lemaPrincipal div video {
+      width: 100%;
+      height: 100%; }
+    .main-index .lemaPrincipal article {
+      color: white;
+      text-align: center;
+      text-transform: capitalize;
+      position: relative;
+      bottom: 80px;
+      background-color: hwb(0 18% 80%/0.578); }
+      .main-index .lemaPrincipal article h2 {
+        font-weight: 600;
+        font-size: 20px; }
+  .main-index .tituloDos h2 {
+    text-align: center;
+    color: #211C6A;
+    font-size: 30px; }
+  .main-index .tituloDos h3 {
+    text-align: center;
+    color: #211C6A;
+    font-size: 25px; }
+  .main-index .nivelesIndex {
+    display: block;
+    height: 1150px;
+    width: 100%;
+    margin: 00px; }
+    .main-index .nivelesIndex div {
+      width: 100%;
+      margin: 10px; }
+      .main-index .nivelesIndex div article {
+        width: 95%;
+        height: 350px;
+        list-style: none;
+        text-align: center;
+        align-items: center;
+        margin-top: 55px; }
+        .main-index .nivelesIndex div article a {
+          text-decoration: none; }
+          .main-index .nivelesIndex div article a h3 {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500; }
+  .main-index .admisionUno {
+    display: block;
+    height: 710px;
+    padding: 20px; }
+    .main-index .admisionUno div {
+      width: 100%;
+      height: 350px;
+      text-transform: capitalize;
+      margin: 00px; }
+    .main-index .admisionUno .admisionParrafo {
+      text-align: center;
+      padding-top: 00px;
+      text-transform: capitalize; }
+      .main-index .admisionUno .admisionParrafo h2:first-child {
+        color: #211C6A;
+        text-transform: capitalize;
+        font-size: 40px; }
+      .main-index .admisionUno .admisionParrafo h2:nth-child(2) {
+        color: red;
+        text-transform: capitalize;
+        font-size: 40px; }
+      .main-index .admisionUno .admisionParrafo h2:nth-child(3) {
+        color: #211C6A;
+        text-transform: capitalize;
+        font-size: 20px;
+        color: #211C6A; }
+      .main-index .admisionUno .admisionParrafo h2:nth-child(4) {
+        color: yellow;
+        text-transform: capitalize;
+        font-size: 40px; }
+      .main-index .admisionUno .admisionParrafo a button {
+        background-color: yellow;
+        color: #211C6A;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 600;
+        border-color: transparent;
+        border-radius: .625rem; }
+        .main-index .admisionUno .admisionParrafo a button:hover {
+          color: hwb(0 18% 80%/0.578); }
+    .main-index .admisionUno .admisionImg {
+      background-image: url("../assets/img/432496813_812108510936849_2818619129023215405_n.jpg");
+      width: 100%;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      padding-top: 240px;
+      padding-left: 0px; }
+      .main-index .admisionUno .admisionImg article {
+        background-color: #211C6A;
+        display: flex;
+        width: 100%;
+        height: 80px;
+        margin-left: 00px; }
+        .main-index .admisionUno .admisionImg article a button {
+          background-color: yellow;
+          color: #211C6A;
+          padding: 15px;
+          font-size: 15px;
+          font-weight: 600;
+          border-color: transparent;
+          text-transform: capitalize;
+          text-align: left;
+          margin-left: 10px; }
+          .main-index .admisionUno .admisionImg article a button:hover {
+            color: hwb(0 18% 80%/0.578); }
+        .main-index .admisionUno .admisionImg article p {
+          color: white;
+          font-size: 15px;
+          font-weight: 400;
+          text-align: center; }
+  .main-index .academiaPreIndex {
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    padding: 20px; }
+    .main-index .academiaPreIndex div {
+      width: 100%;
+      height: 350px;
+      text-transform: capitalize;
+      margin: 00px; }
+    .main-index .academiaPreIndex .academiaImg {
+      width: 100%; }
+      .main-index .academiaPreIndex .academiaImg img {
+        width: 100%;
+        height: 350px; }
+    .main-index .academiaPreIndex .academiaParrafo {
+      width: 100%;
+      text-align: center; }
+      .main-index .academiaPreIndex .academiaParrafo h2:first-child {
+        color: red;
+        text-transform: capitalize;
+        font-size: 30px; }
+      .main-index .academiaPreIndex .academiaParrafo h2:nth-child(2) {
+        color: #211C6A;
+        text-transform: capitalize;
+        font-size: 30px; }
+      .main-index .academiaPreIndex .academiaParrafo a button {
+        background-color: rgba(4, 4, 109, 0.767);
+        color: white;
+        padding: 20px;
+        font-size: 1.875rem;
+        font-weight: 600;
+        border-color: transparent;
+        border-radius: .625rem; }
+        .main-index .academiaPreIndex .academiaParrafo a button:hover {
+          color: hwb(0 18% 80%/0.578); }
+  .main-index .nivelInicial, .main-index .nivelPrimaria, .main-index .nivelSecu {
+    background-image: url("../assets/img/indexnivelinicial.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+    padding-top: 260px;
+    border-radius: 20px; }
+    .main-index .nivelInicial .textoInicial, .main-index .nivelPrimaria .textoInicial, .main-index .nivelSecu .textoInicial, .main-index .nivelPrimaria .textoPrimaria, .main-index .nivelSecu .textoPrimaria, .main-index .nivelSecu .textoSecu {
+      background-color: hwb(0 18% 80%/0.578);
+      width: 53%;
+      height: 70px;
+      margin-left: 50px;
+      padding-top: 10px; }
+  .main-index .nivelPrimaria, .main-index .nivelSecu {
+    background-image: url("../assets/img/indexnivelprimaria.jpg"); }
+  .main-index .nivelSecu {
+    background-image: url("../assets/img/indexnivelsecu.jpg"); }
+    .main-index .nivelSecu .textoSecu {
+      padding-top: 00px; } }
 
 @media (max-width: 391px) {
   .main-index .lemaPrincipal {
@@ -1271,9 +1773,11 @@ header .nav-index nav #toggle, header .nav-index nav label {
   .main-index .nivelesIndex {
     display: block;
     height: 1150px;
-    margin-left: 16px; }
+    width: 100%;
+    margin: 00px; }
     .main-index .nivelesIndex div {
-      width: 100%; }
+      width: 100%;
+      margin: 8px; }
       .main-index .nivelesIndex div article {
         width: 95%;
         height: 350px;
@@ -1393,27 +1897,96 @@ header .nav-index nav #toggle, header .nav-index nav label {
         border-color: transparent;
         border-radius: .625rem; }
         .main-index .academiaPreIndex .academiaParrafo a button:hover {
-          color: hwb(0 18% 80%/0.578); } }
+          color: hwb(0 18% 80%/0.578); }
+  .main-index .nivelInicial, .main-index .nivelPrimaria, .main-index .nivelSecu {
+    background-image: url("../assets/img/indexnivelinicial.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 50px;
+    padding-top: 260px;
+    border-radius: 20px; }
+    .main-index .nivelInicial .textoInicial, .main-index .nivelPrimaria .textoInicial, .main-index .nivelSecu .textoInicial, .main-index .nivelPrimaria .textoPrimaria, .main-index .nivelSecu .textoPrimaria, .main-index .nivelSecu .textoSecu {
+      background-color: hwb(0 18% 80%/0.578);
+      width: 53%;
+      height: 70px;
+      margin-left: 50px;
+      padding-top: 10px; }
+  .main-index .nivelPrimaria, .main-index .nivelSecu {
+    background-image: url("../assets/img/indexnivelprimaria.jpg"); }
+  .main-index .nivelSecu {
+    background-image: url("../assets/img/indexnivelsecu.jpg"); }
+    .main-index .nivelSecu .textoSecu {
+      padding-top: 00px; } }
 
-.main-index .nivelInicial, .main-index .nivelPrimaria, .main-index .nivelSecu {
-  background-image: url("../assets/img/indexnivelinicial.jpg");
-  background-position: center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  padding: 50px;
-  padding-top: 260px;
-  border-radius: 20px; }
-  .main-index .nivelInicial .textoInicial, .main-index .nivelPrimaria .textoInicial, .main-index .nivelSecu .textoInicial, .main-index .nivelPrimaria .textoPrimaria, .main-index .nivelSecu .textoPrimaria, .main-index .nivelSecu .textoSecu {
-    background-color: hwb(0 18% 80%/0.578);
-    width: 53%;
-    height: 70px;
-    margin-left: 50px;
-    padding-top: 10px; }
+@media (max-width: 769px) {
+  .footer-index .footer-General {
+    display: grid;
+    width: 100%;
+    height: 18.75rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+    .footer-index .footer-General .footer-Primera {
+      width: 100%; }
+    .footer-index .footer-General .footer-Tercera {
+      text-decoration: none;
+      grid-column: 1/3;
+      grid-row: 2/3;
+      text-align: left;
+      font-size: 19px;
+      font-weight: 300; }
+  .footer-index .copy-Ri {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    height: 60px;
+    margin-top: 80px; } }
 
-.main-index .nivelPrimaria, .main-index .nivelSecu {
-  background-image: url("../assets/img/indexnivelprimaria.jpg"); }
-
-.main-index .nivelSecu {
-  background-image: url("../assets/img/indexnivelsecu.jpg"); }
-  .main-index .nivelSecu .textoSecu {
-    padding-top: 00px; }
+@media (max-width: 578px) {
+  .footer-index .footer-General-Uno {
+    flex-direction: column;
+    width: 100%;
+    height: 420px;
+    align-items: center;
+    padding-top: 50px; }
+    .footer-index .footer-General-Uno .footer-stm-1 {
+      width: 100%;
+      padding: 20px; }
+    .footer-index .footer-General-Uno .footer-General {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding-left: 00px; }
+      .footer-index .footer-General-Uno .footer-General .footer-Primera .columna-Nosotros {
+        padding-left: 00px; }
+        .footer-index .footer-General-Uno .footer-General .footer-Primera .columna-Nosotros li {
+          text-align: center; }
+          .footer-index .footer-General-Uno .footer-General .footer-Primera .columna-Nosotros li a {
+            font-size: 15px; }
+        .footer-index .footer-General-Uno .footer-General .footer-Primera .columna-Nosotros h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          text-align: center; }
+      .footer-index .footer-General-Uno .footer-General .footer-Segunda .columna-Academico {
+        padding-left: 00px; }
+        .footer-index .footer-General-Uno .footer-General .footer-Segunda .columna-Academico h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          text-align: center; }
+        .footer-index .footer-General-Uno .footer-General .footer-Segunda .columna-Academico li {
+          text-align: center; }
+          .footer-index .footer-General-Uno .footer-General .footer-Segunda .columna-Academico li a {
+            font-size: 15px; }
+      .footer-index .footer-General-Uno .footer-General .footer-Tercera {
+        margin: 00px 20px 00px 20px; }
+        .footer-index .footer-General-Uno .footer-General .footer-Tercera h3 {
+          font-size: 20px;
+          text-align: center; }
+        .footer-index .footer-General-Uno .footer-General .footer-Tercera p {
+          font-size: 16px;
+          text-align: center; }
+  .footer-index .copy-Ri p {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 200px; } }
