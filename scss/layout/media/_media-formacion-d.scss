@@ -1,0 +1,232 @@
+@media(max-width:768px){
+    .bloqueGeneralDeportivo{
+        .bloqueRepeat-fd{
+            display:block;
+            width: 100%;
+            padding: 00px 20px 00px 20px;
+            div{
+                width: 100%;
+            }
+            article{
+                width: 100%;
+            }
+        }
+        .bloqueUno{
+                flex-direction: column-reverse;
+                width: 100%;
+                padding: 00px 20px 00px 20px;
+                div{
+                    width: 100%;
+                }
+                article{
+                    width: 100%;
+                }
+            }
+        .bloqueTres{
+            flex-direction: column;
+            width: 100%;
+            padding-top: 20px;
+            article{
+                width: 100%;
+                padding: 00px 25px 00px 25px;
+            }
+            div{
+                padding: 00px 20px 00px 20px;
+            }
+        }
+        .bloqueCuatro{
+            display: block;
+            text-align: center;
+            .deportes-indiv{
+                width: 100%;
+                div{
+                    padding-left: 120px;
+                }
+            }
+            .deportes-grup{
+                width: 100%;
+                article{
+                    h3{
+                        margin-right: 00px;
+                    }
+                }
+                div{
+                    margin:20px
+                }
+            }
+        }
+        }
+}
+@media(max-width:426px){
+    .bloqueGeneralDeportivo{
+        .bloqueRepeat-fd{
+            padding: 00px 5px 00px 5px;
+            div{
+                img{
+                    height: 18.75rem;
+                }
+            }
+            article{
+                width: 100%;
+            }
+        }
+        section{
+            &:nth-child(2){
+                padding: 00px 5px 00px 5px;
+                div{
+                    img{
+                        height: 18.75rem;
+                    }
+                }
+                article{
+                    width: 100%;
+                }
+            }
+        }
+        .bloqueTres{
+            div{
+                img{
+                    height: 18.75rem;
+                }
+            }
+        }
+        .bloqueCuatro{
+            .deportes-indiv{
+                width: 100%;
+                div{
+                    padding-left: 00px;
+                    margin-right: 100px;
+                    article{
+                        width: 80%;
+                    }
+                }
+                article{
+                    h3{
+                        margin-left: 00px;
+                        margin-right: 00px;
+                    }
+                }
+            }
+            .deportes-grup{
+                width: 100%;
+                padding: 00px;
+                article{
+                    h3{
+                        margin-right: 00px;
+                    }
+                }
+                div{
+                    margin:20px 100px 20px 00px;
+                    display: block;
+                    .futbol{
+                        margin-bottom: 10px;
+                        width: 80%;
+                        margin:00px 100px 20px 100px;
+                    }
+                }
+            }
+        }
+}}
+@media(max-width: 376px){
+    .bloqueGeneralDeportivo{
+        .bloqueRepeat-fd{
+            article{
+                h2{
+                    font-size: 28px;
+                }
+            }
+        }
+        .bloqueCuatro{
+            .deportes-indiv{
+                div{
+                    margin-right: 80px;
+                    article{
+                        margin-left: 70px;
+                    }
+                }
+            }
+            .deportes-grup{
+                div{
+                    margin:20px 80px 20px 00px;
+                    .futbol{
+                        margin-bottom: 10px;
+                        width: 80%;
+                        margin:00px 100px 20px 70px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:320px){
+    .bloqueGeneralDeportivo{
+        font-size: 20px;
+        line-height: 1.5em;
+        .bloqueRepeat-fd{
+            padding: 10px 0px 10px 0px;
+            div{
+                img{
+                    height: 15.625rem;
+                }
+            }
+            article{
+                padding-right: 10px;
+                padding-left: 10px;
+                width: 100%;
+            }
+        }
+        section{
+            &:nth-child(2){
+                div{
+                    img{
+                        height: 15.625rem;
+                    }
+                }
+                article{
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    width: 100%;
+                }
+            }
+        }
+        .bloqueTres{
+            div{
+                img{
+                    height: 15.625rem;
+                }
+            }
+        }
+        .bloqueCuatro{
+            .deportes-indiv{
+                div{
+                    article{
+                        display: block;
+                        height: 160px;
+                        img{
+                            margin: 20px 00px 00px 00px;
+                        }
+                        h4{
+                            margin: 00px 00px 00px 00px;
+                            height: 80px;
+                        }
+                    }
+                }
+            }
+            .deportes-grup{
+                div{
+                    .futbol{
+                        display: block;
+                        height: 160px;
+                        img{
+                            margin: 20px 00px 00px 00px;
+                        }
+                        h4{
+                            margin: 00px 00px 00px 00px;
+                            height: 80px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+}}

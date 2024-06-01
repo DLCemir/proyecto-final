@@ -3,7 +3,7 @@
     color:$color-principal;
     font-size: 20px;
     line-height: 2em;
-        .bloqueRepeat{
+        .bloqueRepeat-fd{
             display: flex;
             padding: 20px 0px 50px 0px;
             flex-wrap: wrap;
@@ -52,7 +52,7 @@
             }
         }
         .bloqueDos{
-            @extend .bloqueRepeat;
+            @extend .bloqueRepeat-fd;
             }
         .bloqueTres{
             display: flex;
