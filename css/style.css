@@ -851,6 +851,18 @@ header .nav-index nav #toggle, header .nav-index nav label {
         color: hwb(0 18% 80%/0.578); }
 
 /**mediaquery siempre al final**/
+@media (max-width: 980px) {
+  header .barraDeTitulo {
+    font-size: 17px;
+    font-weight: 1000;
+    height: 170px; }
+    header .barraDeTitulo .barraImg img {
+      width: 115%;
+      height: 90%; }
+    header .barraDeTitulo .barraTexto {
+      text-align: center;
+      margin-left: 10px; } }
+
 @media (max-width: 768px) {
   header .barraDeTitulo {
     font-size: 15px;
@@ -1252,7 +1264,7 @@ header .nav-index nav #toggle, header .nav-index nav label {
       .main-academia section .academiaParteTres article h2 {
         font-size: 25px; } }
 
-@media (max-width: 333px) {
+@media (max-width: 354px) {
   .main-academia section .academiaParteUno article p {
     font-size: 17px; }
   .main-academia section .academiaParteDos article p {
@@ -1273,19 +1285,28 @@ header .nav-index nav #toggle, header .nav-index nav label {
       width: 100%; } }
 
 @media (max-width: 426px) {
-  .bloqueGeneral .bloqueRepeat div img, .bloqueGeneral section:nth-child(3) div img {
-    height: 18.75rem; }
-  .bloqueGeneral .bloqueRepeat article, .bloqueGeneral section:nth-child(3) article {
-    width: 100%; }
-  .bloqueGeneral section:nth-child(2) div img {
-    height: 18.75rem; }
-  .bloqueGeneral section:nth-child(2) article {
-    width: 100%; } }
+  .bloqueGeneral {
+    line-height: 1.3em; }
+    .bloqueGeneral .bloqueRepeat, .bloqueGeneral section:nth-child(3) {
+      padding: 00px 5px 00px 5px; }
+      .bloqueGeneral .bloqueRepeat div img, .bloqueGeneral section:nth-child(3) div img {
+        height: 18.75rem; }
+      .bloqueGeneral .bloqueRepeat article, .bloqueGeneral section:nth-child(3) article {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px; }
+    .bloqueGeneral section:nth-child(2) {
+      padding: 00px 5px 00px 5px; }
+      .bloqueGeneral section:nth-child(2) div img {
+        height: 18.75rem; }
+      .bloqueGeneral section:nth-child(2) article {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px; } }
 
 @media (max-width: 320px) {
   .bloqueGeneral {
-    font-size: 20px;
-    line-height: 1.5em; }
+    font-size: 20px; }
     .bloqueGeneral .bloqueRepeat, .bloqueGeneral section:nth-child(3) {
       padding: 10px 0px 10px 0px; }
       .bloqueGeneral .bloqueRepeat div img, .bloqueGeneral section:nth-child(3) div img {
@@ -2084,7 +2105,7 @@ header .nav-index nav #toggle, header .nav-index nav label {
       width: 80%;
       margin: 00px 100px 20px 70px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 365px) {
   .bloqueGeneralDeportivo {
     font-size: 20px;
     line-height: 1.5em; }
