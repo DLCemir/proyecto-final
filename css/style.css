@@ -2013,6 +2013,17 @@ header .nav-index nav #toggle, header .nav-index nav label {
     font-weight: 300;
     margin-top: 200px; } }
 
+@media (max-width: 976px) {
+  .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv article h3 {
+    font-size: 28px;
+    margin-right: 50px;
+    margin-left: 60px; }
+  .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article {
+    width: 70%;
+    margin-left: 60px; }
+  .bloqueGeneralDeportivo .bloqueCuatro .deportes-grup article h3 {
+    font-size: 28px; } }
+
 @media (max-width: 768px) {
   .bloqueGeneralDeportivo .bloqueRepeat-fd, .bloqueGeneralDeportivo .bloqueDos {
     display: block;
@@ -2045,13 +2056,24 @@ header .nav-index nav #toggle, header .nav-index nav label {
     .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv {
       width: 100%; }
       .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div {
-        padding-left: 120px; }
-    .bloqueGeneralDeportivo .bloqueCuatro .deportes-grup {
-      width: 100%; }
-      .bloqueGeneralDeportivo .bloqueCuatro .deportes-grup article h3 {
-        margin-right: 00px; }
-      .bloqueGeneralDeportivo .bloqueCuatro .deportes-grup div {
-        margin: 20px; } }
+        margin: 00px 100px 00px 100px; }
+        .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article {
+          display: block;
+          height: 170px;
+          width: 60%;
+          margin: 00px;
+          margin-left: 80px; }
+          .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article img {
+            margin: 20px 00px 00px 00px; }
+          .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article h4 {
+            margin: 00px 00px 00px 00px;
+            height: 80px; }
+  .bloqueGeneralDeportivo .deportes-grup {
+    width: 100%; }
+    .bloqueGeneralDeportivo .deportes-grup article h3 {
+      margin-right: 00px; }
+    .bloqueGeneralDeportivo .deportes-grup div {
+      margin: 20px; } }
 
 @media (max-width: 426px) {
   .bloqueGeneralDeportivo .bloqueRepeat-fd, .bloqueGeneralDeportivo .bloqueDos {
@@ -2072,7 +2094,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
     width: 100%; }
     .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div {
       padding-left: 00px;
-      margin-right: 100px; }
+      margin-right: 100px;
+      margin-left: 00px; }
       .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article {
         width: 80%; }
     .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv article h3 {
