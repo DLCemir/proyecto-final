@@ -2116,8 +2116,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
     width: 100%; }
     .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div {
       padding-left: 00px;
-      margin-right: 100px;
-      margin-left: 00px; }
+      margin-right: 90px;
+      margin-left: 20px; }
       .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article {
         width: 80%; }
     .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv article h3 {
@@ -2140,7 +2140,8 @@ header .nav-index nav #toggle, header .nav-index nav label {
   .bloqueGeneralDeportivo .bloqueRepeat-fd article h2, .bloqueGeneralDeportivo .bloqueDos article h2 {
     font-size: 28px; }
   .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div {
-    margin-right: 80px; }
+    margin-right: 80px;
+    margin-left: 00px; }
     .bloqueGeneralDeportivo .bloqueCuatro .deportes-indiv div article {
       margin-left: 70px; }
   .bloqueGeneralDeportivo .bloqueCuatro .deportes-grup div {
