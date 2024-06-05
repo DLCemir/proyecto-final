@@ -311,6 +311,7 @@
     @include grid(118.75rem,repeat(1,1fr),repeat(15,1fr));
     background-color:white;
     section{
+        height: 118.75rem;
         .imgAcademia{
             grid-column: 1/15;
             grid-row: 6/10;

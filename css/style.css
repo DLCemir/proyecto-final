@@ -1249,40 +1249,42 @@ header .nav-index nav #toggle, header .nav-index nav label {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(15, 1fr);
     background-color: white; }
-    .main-academia section .imgAcademia {
-      grid-column: 1/15;
-      grid-row: 6/10; }
-      .main-academia section .imgAcademia img {
-        width: 100%;
-        height: 100%; }
-    .main-academia section .academiaParteUno {
-      grid-column: 1/15;
-      grid-row: 1/6;
-      border-radius: 0px; }
-      .main-academia section .academiaParteUno article p {
-        font-size: 19px; }
-      .main-academia section .academiaParteUno article h2 {
-        padding-left: 20px; }
-    .main-academia section .academiaParteDos {
-      grid-column: 1/15;
-      grid-row: 10/17;
-      padding: 10px 20px 30px 20px;
-      background-color: white; }
-      .main-academia section .academiaParteDos article p {
-        text-align: center;
-        text-align: justify;
-        font-size: 19px;
-        line-height: 2em;
-        color: black; }
-    .main-academia section .academiaParteTres {
-      grid-column: 1/15;
-      grid-row: 17/20;
-      font-size: 21px;
-      padding: 14px 20px 20px 20px;
-      line-height: 1em;
-      background-color: gray; }
-      .main-academia section .academiaParteTres article h2 {
-        font-size: 25px; } }
+    .main-academia section {
+      height: 118.75rem; }
+      .main-academia section .imgAcademia {
+        grid-column: 1/15;
+        grid-row: 6/10; }
+        .main-academia section .imgAcademia img {
+          width: 100%;
+          height: 100%; }
+      .main-academia section .academiaParteUno {
+        grid-column: 1/15;
+        grid-row: 1/6;
+        border-radius: 0px; }
+        .main-academia section .academiaParteUno article p {
+          font-size: 19px; }
+        .main-academia section .academiaParteUno article h2 {
+          padding-left: 20px; }
+      .main-academia section .academiaParteDos {
+        grid-column: 1/15;
+        grid-row: 10/17;
+        padding: 10px 20px 30px 20px;
+        background-color: white; }
+        .main-academia section .academiaParteDos article p {
+          text-align: center;
+          text-align: justify;
+          font-size: 19px;
+          line-height: 2em;
+          color: black; }
+      .main-academia section .academiaParteTres {
+        grid-column: 1/15;
+        grid-row: 17/20;
+        font-size: 21px;
+        padding: 14px 20px 20px 20px;
+        line-height: 1em;
+        background-color: gray; }
+        .main-academia section .academiaParteTres article h2 {
+          font-size: 25px; } }
 
 @media (max-width: 354px) {
   .main-academia section .academiaParteUno article p {
