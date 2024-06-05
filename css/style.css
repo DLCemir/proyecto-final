@@ -1143,9 +1143,15 @@ header .nav-index nav #toggle, header .nav-index nav label {
         text-align: center;
         font-size: 30px; } }
 
-@media (max-width: 782px) {
+@media (max-width: 784px) {
   .main-academia section {
-    height: 118.75rem; } }
+    height: 125rem; } }
+
+@media (max-width: 760px) {
+  .main-academia section .academiaParteUno article p {
+    font-size: 17px; }
+  .main-academia section .academiaParteUno article h2 {
+    font-size: 25px; } }
 
 @media (max-width: 694px) {
   .main-academia section .imgAcademia {
@@ -1171,6 +1177,12 @@ header .nav-index nav #toggle, header .nav-index nav label {
     font-size: 17px; }
   .main-academia section .academiaParteUno article h2 {
     font-size: 25px; } }
+
+@media (max-width: 624px) {
+  .main-academia section .academiaParteUno article p {
+    font-size: 15px; }
+  .main-academia section .academiaParteUno article h2 {
+    font-size: 22px; } }
 
 @media (max-width: 576px) {
   .main-academia section .academiaParteUno {
@@ -1204,6 +1216,14 @@ header .nav-index nav #toggle, header .nav-index nav label {
   .main-academia section .academiaParteTres {
     grid-row: 18/25; } }
 
+@media (max-width: 480px) {
+  .main-academia section .academiaParteUno {
+    grid-row: 14/18; }
+    .main-academia section .academiaParteUno article p {
+      font-size: 14px; }
+    .main-academia section .academiaParteUno article h2 {
+      font-size: 22px; } }
+
 @media (max-width: 458px) {
   .main-academia section .imgAcademia {
     grid-column: 1/11;
@@ -1211,9 +1231,9 @@ header .nav-index nav #toggle, header .nav-index nav label {
   .main-academia section .academiaParteUno {
     grid-row: 14/18; }
     .main-academia section .academiaParteUno article p {
-      font-size: 15px; }
+      font-size: 14px; }
     .main-academia section .academiaParteUno article h2 {
-      font-size: 24px; }
+      font-size: 22px; }
   .main-academia section .academiaParteDos {
     grid-row: 8/14; }
     .main-academia section .academiaParteDos article p {
@@ -2218,7 +2238,7 @@ header .nav-index nav #toggle, header .nav-index nav label {
     .admision .admisionParte2 .formularioContactos .map .map-uno iframe {
       height: 300px; } }
 
-@media (max-width: 426px) {
+@media (max-width: 655px) {
   .admision .admisionParte1 div h2 {
     margin-left: 50px;
     margin-bottom: 10px; }
