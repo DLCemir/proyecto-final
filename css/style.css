@@ -1262,7 +1262,7 @@ header .nav-index nav #toggle, header .nav-index nav label {
         grid-row: 1/6;
         border-radius: 0px; }
         .main-academia section .academiaParteUno article p {
-          font-size: 19px; }
+          font-size: 18px; }
         .main-academia section .academiaParteUno article h2 {
           padding-left: 20px; }
       .main-academia section .academiaParteDos {
@@ -1295,6 +1295,16 @@ header .nav-index nav #toggle, header .nav-index nav label {
     font-size: 20px; }
     .main-academia section .academiaParteTres article h2 {
       font-size: 20px; } }
+
+@media (max-width: 319px) {
+  .main-academia section .academiaParteUno article p {
+    font-size: 14px; }
+  .main-academia section .academiaParteDos article p {
+    font-size: 14px; }
+  .main-academia section .academiaParteTres {
+    font-size: 14px; }
+    .main-academia section .academiaParteTres article h2 {
+      font-size: 16px; } }
 
 @media (max-width: 768px) {
   .bloqueGeneral .bloqueRepeat, .bloqueGeneral section:nth-child(3) {

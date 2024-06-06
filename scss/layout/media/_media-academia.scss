@@ -325,7 +325,7 @@
             border-radius: 0px;
             article{
                 p{
-                    font-size: 19px;
+                    font-size: 18px;
                 }
                 h2{
                     padding-left:20px;
@@ -387,5 +387,31 @@
         }
     }
 }
-    
+@media(max-width:319px){
+    .main-academia{
+        section{
+            .academiaParteUno{
+                article{
+                    p{
+                        font-size: 14px;
+                    }
+                    }
+            }
+            .academiaParteDos{
+                article{
+                    p{
+                font-size: 14px;
+            }}
+            }
+            .academiaParteTres{
+                font-size:14px;
+                article{
+                    h2{
+                        font-size: 16px;
+                    }
+                }
+            }    
+        }
+    }
+}   
     
